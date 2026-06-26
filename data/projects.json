@@ -1,0 +1,79 @@
+[
+  {
+    "title": "Mission Control Access Switches",
+    "status": "Build in Progress",
+    "area": "Rack 1 - Mission Control",
+    "summary": "Commission R1-SW01 through R1-SW03, validate classroom workstation paths, and document access switch baselines.",
+    "action": "Wipe and recommission R1-SW01, then finish validation notes."
+  },
+  {
+    "title": "Rocket\u2019s Forge Proxmox Core",
+    "status": "Build in Progress",
+    "area": "Rack 2 - Rocket's Forge",
+    "summary": "Prepare R2-PVE01, R2-PVE02, and R2-PVE03 as the virtualization foundation for teaching services.",
+    "action": "Validate RAM, storage, iDRAC access, and first service deployment."
+  },
+  {
+    "title": "Rocket\u2019s Forge Storage and Image Repository",
+    "status": "Ready to Build",
+    "area": "Rack 2 - Rocket's Forge",
+    "summary": "Use Dell PowerEdge R930 class hardware for ISO storage, VM templates, restore staging, and Proxmox backups.",
+    "action": "Inventory drives, select TrueNAS or Linux storage model, then connect to Proxmox."
+  },
+  {
+    "title": "Western Pennsylvania Cyber Defense Command",
+    "status": "Build in Progress",
+    "area": "Rack 3 - Cyber Defense Command",
+    "summary": "Operate the HP c3000 and BL460c Gen9 blade environment as the cyber range compute platform.",
+    "action": "Resolve management access and create initial VM templates."
+  },
+  {
+    "title": "Second R930 Cyber Defense Storage Host",
+    "status": "Proposal Drafted",
+    "area": "Rack 3 - Cyber Defense Command",
+    "summary": "Integrate the second R930 as cyber range storage while documenting power, cooling, and controlled startup policies.",
+    "action": "Complete power draw review and rack placement decision."
+  },
+  {
+    "title": "Patch Bay Alpha Security Edge Staging Bay",
+    "status": "Ready to Build",
+    "area": "Patch Bay Alpha",
+    "summary": "Rack one Fortinet firewall, one Palo Alto firewall, and one Cisco 2900 Series router as a non-production security-edge staging bay.",
+    "action": "Rack equipment, cable management, label, photograph, and document."
+  },
+  {
+    "title": "ACE Service Desk",
+    "status": "Proposal Drafted",
+    "area": "Ace's Support Command",
+    "summary": "Deploy GLPI as the student-facing help desk and simulated support workflow platform.",
+    "action": "Build R2-HDSK01 and define first ticket categories."
+  },
+  {
+    "title": "SOTE Command Wall",
+    "status": "Proposal Drafted",
+    "area": "Mission Control",
+    "summary": "Display service status, cyber range activity, project board, ACE tickets, rack health, maps, and student missions.",
+    "action": "Define R1-DISP01 kiosk workflow and dashboard rotation."
+  },
+  {
+    "title": "Ask SOTEE Kiosk",
+    "status": "Concept",
+    "area": "Mission Control",
+    "summary": "Provide an interactive student and visitor assistant for SOTE questions, missions, documentation lookup, and next steps.",
+    "action": "Create approved FAQ and safe response boundaries."
+  },
+  {
+    "title": "SOTE Mission Badges",
+    "status": "Proposal Drafted",
+    "area": "Student Technology Corps",
+    "summary": "Create collectible digital and printable badges tied to hands-on mission completion.",
+    "action": "Connect badge criteria to mission queue and student roles."
+  },
+  {
+    "title": "Rocket\u2019s Parts Locker",
+    "status": "Concept",
+    "area": "Rocket's Engineering Bay",
+    "summary": "Organize spare parts, rails, cables, adapters, transceivers, and repair inventory into a student-managed locker system.",
+    "action": "Create inventory bins, labels, and intake checklist."
+  }
+]

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SOTE Deployment Notes</title>
+  <link rel="icon" href="assets/icons/paw-badge.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body id="top">
+<a class="skip-link" href="#main">Skip to main content</a>
+<div class="prototype-banner">Prototype Preview - Working draft for SOTE review and tester feedback. Not an official public CCAC website.</div>
+<header class="site-header">
+  <div class="container topbar">
+    <a class="brand" href="index.html" aria-label="CCAC SOTE Command Portal home">
+      <img src="assets/icons/paw-badge.svg" alt="">
+      <span><strong>CCAC SOTE</strong><small>Full Portal Reconciliation Build</small></span>
+    </a>
+    <nav class="primary-nav" aria-label="Primary navigation"><a class="" href="index.html">Home</a><a class="" href="tour.html">Tour</a><a class="" href="zones.html">Zones</a><a class="" href="project-status.html">Status</a><a class="" href="projects.html">Projects</a><a class="" href="mission-queue.html">Mission Queue</a><a class="" href="badges.html">Badges</a><a class="" href="handout.html">One-Sheet</a><a class="" href="corps.html">Student Corps</a><a class="" href="mascots.html">Characters</a><a class="" href="ask-sotee.html">Ask SOTEE</a><a class="active" href="deployment.html">Deploy</a></nav>
+    <button class="menu-toggle" type="button" aria-label="Toggle menu">Menu</button>
+  </div>
+  <div class="container"><nav class="mobile-nav" aria-label="Mobile navigation"><a class="" href="index.html">Home</a><a class="" href="tour.html">Tour</a><a class="" href="zones.html">Zones</a><a class="" href="project-status.html">Status</a><a class="" href="projects.html">Projects</a><a class="" href="mission-queue.html">Mission Queue</a><a class="" href="badges.html">Badges</a><a class="" href="handout.html">One-Sheet</a><a class="" href="corps.html">Student Corps</a><a class="" href="mascots.html">Characters</a><a class="" href="ask-sotee.html">Ask SOTEE</a><a class="active" href="deployment.html">Deploy</a></nav></div>
+</header>
+<main id="main"><section class="page-hero"><div class="container"><p class="eyebrow">Deployment Notes</p><h1>Static preview now, R2-WEB01 later.</h1><p>This page restores the deployment notes concept for GitHub Pages, Netlify Drop, and future internal hosting on Rocket’s Forge.</p></div></section><section class="section"><div class="container detail-layout"><div class="card"><h2>Testing path</h2><ol><li>Unzip the website package.</li><li>Open the folder that contains index.html.</li><li>Drag that folder to Netlify Drop or publish through GitHub Pages.</li><li>Share the generated preview URL with testers.</li></ol></div><div class="card"><h2>Future internal path</h2><p>Host the approved static build on <strong>R2-WEB01</strong> as the internal SOTE landing page, with links to ACE Service Desk, NetBox/IPAM, observability, documentation, and mission work as those services come online.</p><pre class="data-note">R2-WEB01: Website / portal
+R2-HDSK01: ACE Service Desk / GLPI
+R2-IPAM01: NetBox source of truth
+R2-OBS01: Observability
+R2-MGMT01: Admin access / jump box</pre></div></div></section></main>
+<footer class="footer">
+  <div class="container footer-grid">
+    <div><img src="assets/icons/sote-command-portal-logo.svg" alt="SOTE Command Portal"><p>CCAC Student-Operated Technology Ecosystem</p></div>
+    <div><strong>Portal Version</strong><p>v0.8 Full Portal Reconciliation Build</p></div>
+    <div><strong>Restored Structure</strong><p>Home, Tour, Zones, Projects, Status, Mission Queue, Badges, One-Sheet, Corps, Characters, Ask SOTEE, and zone detail pages.</p></div>
+  </div>
+</footer>
+<script src="assets/js/app.js"></script>
+</body></html>

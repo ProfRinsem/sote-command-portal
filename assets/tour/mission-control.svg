@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img"><defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#081f3a"/><stop offset="1" stop-color="#25d7ff"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity="0.35"/></filter></defs>
+<rect width="1280" height="720" rx="42" fill="url(#g)"/>
+<rect x="28" y="28" width="1224" height="664" rx="34" fill="rgba(3,9,20,.52)" stroke="rgba(248,250,252,.26)" stroke-width="2"/>
+<path d="M0 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M96 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M192 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M288 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M384 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M480 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M576 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M672 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M768 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M864 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M960 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M1056 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M1152 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M1248 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 0 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 90 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 180 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 270 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 360 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 450 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 540 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 630 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<rect x="58" y="70" width="386" height="580" rx="30" fill="#06182d" stroke="#25d7ff" stroke-opacity=".34" filter="url(#shadow)"/>
+<circle cx="133" cy="145" r="44" fill="#cf1235" stroke="#ffb703" stroke-width="4"/>
+<text x="133" y="157" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#f8fafc" text-anchor="middle">SOTE</text>
+<text x="92" y="235" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#ffb703" text-anchor="start">STOP 2</text>
+<text x="92" y="287" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="900" fill="#f8fafc" text-anchor="start">Mission Control</text>
+<text x="92" y="340" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="600" fill="#d8e3ef" text-anchor="start">The operator floor for</text>
+<text x="92" y="370" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="600" fill="#d8e3ef" text-anchor="start">observing, connecting,</text>
+<text x="92" y="400" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="600" fill="#d8e3ef" text-anchor="start">diagnosing, and resolving.</text>
+<rect x="90" y="538" width="300" height="58" rx="18" fill="#cf1235"/>
+<text x="240" y="575" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#f8fafc" text-anchor="middle">Observe • Connect • Diagnose • Resolve</text>
+<rect x="532" y="118" width="235" height="130" rx="16" fill="#0a1c34" stroke="#25d7ff" stroke-opacity=".45"/>
+<polyline points="554,212 602,178 648,200 698,156 739,190" fill="none" stroke="#3be477" stroke-width="5" stroke-linecap="round"/>
+<rect x="802" y="118" width="235" height="130" rx="16" fill="#0a1c34" stroke="#25d7ff" stroke-opacity=".45"/>
+<polyline points="824,212 872,178 918,200 968,156 1009,190" fill="none" stroke="#3be477" stroke-width="5" stroke-linecap="round"/>
+<rect x="532" y="285" width="235" height="130" rx="16" fill="#0a1c34" stroke="#25d7ff" stroke-opacity=".45"/>
+<polyline points="554,379 602,345 648,367 698,323 739,357" fill="none" stroke="#3be477" stroke-width="5" stroke-linecap="round"/>
+<rect x="802" y="285" width="235" height="130" rx="16" fill="#0a1c34" stroke="#25d7ff" stroke-opacity=".45"/>
+<polyline points="824,379 872,345 918,367 968,323 1009,357" fill="none" stroke="#3be477" stroke-width="5" stroke-linecap="round"/>
+<rect x="1070" y="118" width="96" height="297" rx="16" fill="#0a1c34" stroke="#25d7ff" stroke-opacity=".45"/>
+<polyline points="1092,379 1140,345 1186,367 1236,323 1138,357" fill="none" stroke="#3be477" stroke-width="5" stroke-linecap="round"/>
+<rect x="545" y="488" width="620" height="90" rx="18" fill="#cf1235" fill-opacity=".8"/>
+<text x="855" y="546" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="900" fill="#f8fafc" text-anchor="middle">SYSTEMS ONLINE</text>
+<rect x="58" y="642" width="1164" height="2" fill="#25d7ff" opacity=".35"/></svg>

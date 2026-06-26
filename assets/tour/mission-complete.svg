@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img"><defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#cf1235"/><stop offset="1" stop-color="#ffb703"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity="0.35"/></filter></defs>
+<rect width="1280" height="720" rx="42" fill="url(#g)"/>
+<rect x="28" y="28" width="1224" height="664" rx="34" fill="rgba(3,9,20,.52)" stroke="rgba(248,250,252,.26)" stroke-width="2"/>
+<path d="M0 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M96 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M192 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M288 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M384 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M480 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M576 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M672 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M768 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M864 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M960 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M1056 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M1152 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M1248 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 0 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 90 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 180 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 270 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 360 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 450 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 540 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 630 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<rect x="58" y="70" width="386" height="580" rx="30" fill="#06182d" stroke="#25d7ff" stroke-opacity=".34" filter="url(#shadow)"/>
+<circle cx="133" cy="145" r="44" fill="#cf1235" stroke="#ffb703" stroke-width="4"/>
+<text x="133" y="157" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#f8fafc" text-anchor="middle">SOTE</text>
+<text x="92" y="235" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#ffb703" text-anchor="start">FINAL</text>
+<text x="92" y="287" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="900" fill="#f8fafc" text-anchor="start">Mission Complete</text>
+<text x="92" y="340" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="600" fill="#d8e3ef" text-anchor="start">Join the Student Technology</text>
+<text x="92" y="370" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="600" fill="#d8e3ef" text-anchor="start">Corps, earn badges, and take</text>
+<text x="92" y="400" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="600" fill="#d8e3ef" text-anchor="start">the next mission.</text>
+<rect x="90" y="538" width="300" height="58" rx="18" fill="#cf1235"/>
+<text x="240" y="575" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#f8fafc" text-anchor="middle">Technology Cadet → Certified Professional</text>
+<polygon points="610,130 667,170 646,238 610,262 574,238 553,170" fill="#0a1c34" stroke="#ffb703" stroke-width="5"/>
+<circle cx="610" cy="190" r="28" fill="#cf1235"/>
+<polygon points="820,130 877,170 856,238 820,262 784,238 763,170" fill="#0a1c34" stroke="#ffb703" stroke-width="5"/>
+<circle cx="820" cy="190" r="28" fill="#cf1235"/>
+<polygon points="1030,130 1087,170 1066,238 1030,262 994,238 973,170" fill="#0a1c34" stroke="#ffb703" stroke-width="5"/>
+<circle cx="1030" cy="190" r="28" fill="#cf1235"/>
+<polygon points="610,280 667,320 646,388 610,412 574,388 553,320" fill="#0a1c34" stroke="#ffb703" stroke-width="5"/>
+<circle cx="610" cy="340" r="28" fill="#cf1235"/>
+<polygon points="820,280 877,320 856,388 820,412 784,388 763,320" fill="#0a1c34" stroke="#ffb703" stroke-width="5"/>
+<circle cx="820" cy="340" r="28" fill="#cf1235"/>
+<polygon points="1030,280 1087,320 1066,388 1030,412 994,388 973,320" fill="#0a1c34" stroke="#ffb703" stroke-width="5"/>
+<circle cx="1030" cy="340" r="28" fill="#cf1235"/>
+<polygon points="610,430 667,470 646,538 610,562 574,538 553,470" fill="#0a1c34" stroke="#ffb703" stroke-width="5"/>
+<circle cx="610" cy="490" r="28" fill="#cf1235"/>
+<polygon points="820,430 877,470 856,538 820,562 784,538 763,470" fill="#0a1c34" stroke="#ffb703" stroke-width="5"/>
+<circle cx="820" cy="490" r="28" fill="#cf1235"/>
+<polygon points="1030,430 1087,470 1066,538 1030,562 994,538 973,470" fill="#0a1c34" stroke="#ffb703" stroke-width="5"/>
+<circle cx="1030" cy="490" r="28" fill="#cf1235"/>
+<rect x="58" y="642" width="1164" height="2" fill="#25d7ff" opacity=".35"/></svg>

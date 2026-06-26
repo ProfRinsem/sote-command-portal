@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img"><defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#3be477"/><stop offset="1" stop-color="#081f3a"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity="0.35"/></filter></defs>
+<rect width="1280" height="720" rx="42" fill="url(#g)"/>
+<rect x="28" y="28" width="1224" height="664" rx="34" fill="rgba(3,9,20,.52)" stroke="rgba(248,250,252,.26)" stroke-width="2"/>
+<path d="M0 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M96 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M192 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M288 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M384 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M480 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M576 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M672 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M768 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M864 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M960 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M1056 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M1152 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M1248 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 0 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 90 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 180 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 270 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 360 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 450 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 540 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 630 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<rect x="58" y="70" width="386" height="580" rx="30" fill="#06182d" stroke="#25d7ff" stroke-opacity=".34" filter="url(#shadow)"/>
+<circle cx="133" cy="145" r="44" fill="#cf1235" stroke="#ffb703" stroke-width="4"/>
+<text x="133" y="157" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#f8fafc" text-anchor="middle">SOTE</text>
+<text x="92" y="235" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#ffb703" text-anchor="start">STOP 4</text>
+<text x="92" y="287" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="900" fill="#f8fafc" text-anchor="start">Western Pennsylvania Cyber Defense Command</text>
+<text x="92" y="340" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="600" fill="#d8e3ef" text-anchor="start">The controlled cyber range for</text>
+<text x="92" y="370" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="600" fill="#d8e3ef" text-anchor="start">detection, defense,</text>
+<text x="92" y="400" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="600" fill="#d8e3ef" text-anchor="start">investigation, and recovery.</text>
+<rect x="90" y="538" width="300" height="58" rx="18" fill="#cf1235"/>
+<text x="240" y="575" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#f8fafc" text-anchor="middle">Detect • Defend • Investigate • Recover</text>
+<path d="M850 92 L1140 245 L1088 585 L850 646 L612 585 L560 245 Z" fill="#0a1c34" stroke="#3be477" stroke-width="8" filter="url(#shadow)"/>
+<text x="850" y="262" font-family="Inter, Arial, sans-serif" font-size="70" font-weight="900" fill="#3be477" text-anchor="middle">K9</text>
+<text x="850" y="336" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="900" fill="#f8fafc" text-anchor="middle">CYBER DEFENSE</text>
+<circle cx="630" cy="430" r="18" fill="#25d7ff"/><path d="M630 430 L850 520" stroke="#25d7ff" stroke-width="5" opacity=".6"/>
+<circle cx="750" cy="460" r="18" fill="#25d7ff"/><path d="M750 460 L850 520" stroke="#25d7ff" stroke-width="5" opacity=".6"/>
+<circle cx="885" cy="430" r="18" fill="#25d7ff"/><path d="M885 430 L850 520" stroke="#25d7ff" stroke-width="5" opacity=".6"/>
+<circle cx="1000" cy="468" r="18" fill="#25d7ff"/><path d="M1000 468 L850 520" stroke="#25d7ff" stroke-width="5" opacity=".6"/>
+<circle cx="850" cy="520" r="34" fill="#cf1235" stroke="#ffb703" stroke-width="4"/>
+<rect x="58" y="642" width="1164" height="2" fill="#25d7ff" opacity=".35"/></svg>

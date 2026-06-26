@@ -1,0 +1,38 @@
+[
+  {
+    "title": "First Signal",
+    "type": "Visitor mission",
+    "desc": "Open the one-sheet, visit the major zones, identify one system, one support task, and one cyber defense task.",
+    "owner": "Technology Cadet"
+  },
+  {
+    "title": "Photo to Inventory",
+    "type": "Work from anywhere",
+    "desc": "Turn equipment photos into a draft inventory list with model, likely role, rack location, and unknowns.",
+    "owner": "Infrastructure Technician"
+  },
+  {
+    "title": "Ticket Cleanup",
+    "type": "Work from anywhere",
+    "desc": "Review open tasks and mark items waiting on Steve or another outside party as Pending Outside Input.",
+    "owner": "Mission Control Operator"
+  },
+  {
+    "title": "Badge Criteria Draft",
+    "type": "Documentation",
+    "desc": "Write the completion checklist for one mission badge using clear student-facing language.",
+    "owner": "Student Technology Corps"
+  },
+  {
+    "title": "ACE Scenario Pack",
+    "type": "Help desk",
+    "desc": "Draft three simulated help desk tickets tied to Windows, Linux, networking, or account support.",
+    "owner": "Help Desk Technician"
+  },
+  {
+    "title": "Tour Stop Script",
+    "type": "Visitor experience",
+    "desc": "Write a one-minute explanation for one zone using what students see, what they do, and why it matters.",
+    "owner": "Technology Cadet"
+  }
+]

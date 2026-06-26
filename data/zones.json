@@ -1,0 +1,65 @@
+[
+  {
+    "name": "CEIT 325 Classroom",
+    "slug": "ceit-325-classroom",
+    "tag": "Teaching floor",
+    "desc": "The student entry point for labs, demos, tours, and access into SOTE systems.",
+    "keywords": "Access / Learn / Practice"
+  },
+  {
+    "name": "Mission Control",
+    "slug": "mission-control",
+    "tag": "Rack 1",
+    "desc": "The command and operations area for switch access, service visibility, support work, and briefings.",
+    "keywords": "Observe / Connect / Diagnose / Resolve"
+  },
+  {
+    "name": "Rocket's Forge",
+    "slug": "rockets-forge",
+    "tag": "Rack 2",
+    "desc": "The teaching datacenter for Proxmox, storage, templates, infrastructure services, and build work.",
+    "keywords": "Build / Provision / Host / Orchestrate"
+  },
+  {
+    "name": "Western Pennsylvania Cyber Defense Command",
+    "slug": "western-pennsylvania-cyber-defense-command",
+    "tag": "Rack 3",
+    "desc": "The cyber defense and range environment for controlled scenarios and blue team operations.",
+    "keywords": "Detect / Defend / Investigate / Recover"
+  },
+  {
+    "name": "Command Briefing Room",
+    "slug": "command-briefing-room",
+    "tag": "Briefing",
+    "desc": "The planning, sponsor, demo, and mission debrief room connected to the ecosystem story.",
+    "keywords": "Brief / Plan / Review"
+  },
+  {
+    "name": "Ace's Support Command",
+    "slug": "aces-support-command",
+    "tag": "Help desk",
+    "desc": "The student support desk concept where ACE Service Desk workflows become visible and teachable.",
+    "keywords": "Triage / Ticket / Resolve"
+  },
+  {
+    "name": "Patch Bay Alpha",
+    "slug": "patch-bay-alpha",
+    "tag": "Patch and edge",
+    "desc": "The staging rack for patching, routing, firewall demonstrations, and security-edge learning.",
+    "keywords": "Patch / Route / Secure"
+  },
+  {
+    "name": "Rocket's Engineering Bay",
+    "slug": "rockets-engineering-bay",
+    "tag": "R&D",
+    "desc": "The project bench for repairs, staging, inventory, Rocket\u2019s Parts Locker, and experiments.",
+    "keywords": "Stage / Repair / Prototype"
+  },
+  {
+    "name": "Rocket's Launch Pad",
+    "slug": "rockets-launch-pad",
+    "tag": "Wiring lab",
+    "desc": "The structured cabling and hands-on physical infrastructure training area.",
+    "keywords": "Terminate / Test / Certify"
+  }
+]

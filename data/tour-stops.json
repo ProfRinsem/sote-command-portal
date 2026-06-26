@@ -1,0 +1,66 @@
+[
+  {
+    "kicker": "Start Tour",
+    "name": "Welcome to SOTE",
+    "slug": "welcome",
+    "image": "assets/tour/start-tour.svg",
+    "student": "A mission-based first look at the student-operated ecosystem.",
+    "focus": "Access. Learn. Build. Defend. Lead."
+  },
+  {
+    "kicker": "Stop 1",
+    "name": "CEIT 325 Classroom",
+    "slug": "ceit-325-classroom",
+    "image": "assets/tour/ceit-325-classroom.svg",
+    "student": "Rows of student workstations that become the entry point into real infrastructure.",
+    "focus": "Learn the environment and begin the First Signal mission."
+  },
+  {
+    "kicker": "Stop 2",
+    "name": "Mission Control",
+    "slug": "mission-control",
+    "image": "assets/tour/mission-control.svg",
+    "student": "The operator floor for observation, service status, tickets, console access, and daily mission work.",
+    "focus": "Observe, connect, diagnose, and resolve."
+  },
+  {
+    "kicker": "Stop 3",
+    "name": "Rocket's Forge",
+    "slug": "rockets-forge",
+    "image": "assets/tour/rockets-forge.svg",
+    "student": "The teaching datacenter where servers, storage, templates, and services are built.",
+    "focus": "Build, provision, host, and orchestrate."
+  },
+  {
+    "kicker": "Stop 4",
+    "name": "Western Pennsylvania Cyber Defense Command",
+    "slug": "western-pennsylvania-cyber-defense-command",
+    "image": "assets/tour/cyber-defense-command.svg",
+    "student": "The cyber range space for controlled defense, investigation, recovery, and scenario work.",
+    "focus": "Detect, defend, investigate, and recover."
+  },
+  {
+    "kicker": "Stop 5",
+    "name": "Patch Bay Alpha",
+    "slug": "patch-bay-alpha",
+    "image": "assets/tour/patch-bay-alpha.svg",
+    "student": "The security edge staging bay and patching zone for routers, firewalls, and network paths.",
+    "focus": "Connect. Patch. Verify. Launch."
+  },
+  {
+    "kicker": "Stop 6",
+    "name": "Rocket's Engineering Bay",
+    "slug": "rockets-engineering-bay",
+    "image": "assets/tour/rockets-engineering-bay.svg",
+    "student": "The hands-on build and R&D area for experiments, staging, parts, and repairs.",
+    "focus": "Prototype, document, test, and improve."
+  },
+  {
+    "kicker": "Mission Complete",
+    "name": "Technology Cadet Launch Point",
+    "slug": "mission-complete",
+    "image": "assets/tour/mission-complete.svg",
+    "student": "The visitor can describe the ecosystem and claim the first badge path.",
+    "focus": "Start as a Technology Cadet and continue into the Student Technology Corps."
+  }
+]

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img"><defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f97316"/><stop offset="1" stop-color="#081f3a"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity="0.35"/></filter></defs>
+<rect width="1280" height="720" rx="42" fill="url(#g)"/>
+<rect x="28" y="28" width="1224" height="664" rx="34" fill="rgba(3,9,20,.52)" stroke="rgba(248,250,252,.26)" stroke-width="2"/>
+<path d="M0 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M96 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M192 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M288 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M384 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M480 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M576 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M672 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M768 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M864 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M960 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M1056 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M1152 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M1248 0 V720" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 0 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 90 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 180 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 270 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 360 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 450 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 540 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<path d="M0 630 H1280" stroke="#ffffff" stroke-opacity="0.045"/>
+<rect x="58" y="70" width="386" height="580" rx="30" fill="#06182d" stroke="#25d7ff" stroke-opacity=".34" filter="url(#shadow)"/>
+<circle cx="133" cy="145" r="44" fill="#cf1235" stroke="#ffb703" stroke-width="4"/>
+<text x="133" y="157" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#f8fafc" text-anchor="middle">SOTE</text>
+<text x="92" y="235" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#ffb703" text-anchor="start">STOP 5</text>
+<text x="92" y="287" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="900" fill="#f8fafc" text-anchor="start">Patch Bay Alpha</text>
+<text x="92" y="340" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="600" fill="#d8e3ef" text-anchor="start">The approved updated tour card:</text>
+<text x="92" y="370" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="600" fill="#d8e3ef" text-anchor="start">orange wall, blue cabling,</text>
+<text x="92" y="400" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="600" fill="#d8e3ef" text-anchor="start">cable tray, patch rack.</text>
+<rect x="90" y="538" width="300" height="58" rx="18" fill="#cf1235"/>
+<text x="240" y="575" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="900" fill="#f8fafc" text-anchor="middle">CONNECT. PATCH. VERIFY. DOCUMENT.</text>
+<rect x="500" y="82" width="705" height="520" rx="28" fill="#e96b1f" stroke="#ffb703" stroke-opacity=".45"/>
+<text x="852" y="168" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="900" fill="#f8fafc" text-anchor="middle">CONNECT. PATCH.</text>
+<text x="852" y="218" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="900" fill="#f8fafc" text-anchor="middle">VERIFY. DOCUMENT.</text>
+<rect x="520" y="270" width="660" height="32" rx="10" fill="#0a1c34" stroke="#d8e3ef" stroke-opacity=".36"/>
+<rect x="545" y="279" width="20" height="13" rx="3" fill="#25d7ff" fill-opacity=".76"/>
+<rect x="587" y="279" width="20" height="13" rx="3" fill="#25d7ff" fill-opacity=".76"/>
+<rect x="629" y="279" width="20" height="13" rx="3" fill="#25d7ff" fill-opacity=".76"/>
+<rect x="671" y="279" width="20" height="13" rx="3" fill="#25d7ff" fill-opacity=".76"/>
+<rect x="713" y="279" width="20" height="13" rx="3" fill="#25d7ff" fill-opacity=".76"/>
+<rect x="755" y="279" width="20" height="13" rx="3" fill="#25d7ff" fill-opacity=".76"/>
+<rect x="797" y="279" width="20" height="13" rx="3" fill="#25d7ff" fill-opacity=".76"/>
+<rect x="839" y="279" width="20" height="13" rx="3" fill="#25d7ff" fill-opacity=".76"/>
+<rect x="881" y="279" width="20" height="13" rx="3" fill="#25d7ff" fill-opacity=".76"/>
+<rect x="923" y="279" width="20" height="13" rx="3" fill="#25d7ff" fill-opacity=".76"/>
+<rect x="965" y="279" width="20" height="13" rx="3" fill="#25d7ff" fill-opacity=".76"/>
+<rect x="1007" y="279" width="20" height="13" rx="3" fill="#25d7ff" fill-opacity=".76"/>
+<rect x="1049" y="279" width="20" height="13" rx="3" fill="#25d7ff" fill-opacity=".76"/>
+<rect x="1091" y="279" width="20" height="13" rx="3" fill="#25d7ff" fill-opacity=".76"/>
+<rect x="1133" y="279" width="20" height="13" rx="3" fill="#25d7ff" fill-opacity=".76"/>
+<rect x="590" y="355" width="210" height="185" rx="14" fill="#06182d" stroke="#25d7ff" stroke-opacity=".45"/>
+<rect x="614" y="385" width="162" height="18" rx="4" fill="#153a63"/>
+<circle cx="630" cy="394" r="4" fill="#25d7ff"/>
+<circle cx="662" cy="394" r="4" fill="#25d7ff"/>
+<circle cx="694" cy="394" r="4" fill="#25d7ff"/>
+<circle cx="726" cy="394" r="4" fill="#25d7ff"/>
+<rect x="614" y="417" width="162" height="18" rx="4" fill="#153a63"/>
+<circle cx="630" cy="426" r="4" fill="#25d7ff"/>
+<circle cx="662" cy="426" r="4" fill="#25d7ff"/>
+<circle cx="694" cy="426" r="4" fill="#25d7ff"/>
+<circle cx="726" cy="426" r="4" fill="#25d7ff"/>
+<rect x="614" y="449" width="162" height="18" rx="4" fill="#153a63"/>
+<circle cx="630" cy="458" r="4" fill="#25d7ff"/>
+<circle cx="662" cy="458" r="4" fill="#25d7ff"/>
+<circle cx="694" cy="458" r="4" fill="#25d7ff"/>
+<circle cx="726" cy="458" r="4" fill="#25d7ff"/>
+<rect x="614" y="481" width="162" height="18" rx="4" fill="#153a63"/>
+<circle cx="630" cy="490" r="4" fill="#25d7ff"/>
+<circle cx="662" cy="490" r="4" fill="#25d7ff"/>
+<circle cx="694" cy="490" r="4" fill="#25d7ff"/>
+<circle cx="726" cy="490" r="4" fill="#25d7ff"/>
+<path d="M640 405 C690 520, 845 330, 900 300" stroke="#25d7ff" stroke-width="7" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M674 405 C724 532, 883 346, 938 300" stroke="#25d7ff" stroke-width="7" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M710 405 C760 544, 921 362, 976 300" stroke="#25d7ff" stroke-width="7" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M744 405 C794 556, 959 378, 1014 300" stroke="#25d7ff" stroke-width="7" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M760 405 C810 568, 997 394, 1052 300" stroke="#25d7ff" stroke-width="7" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M690 405 C740 580, 1035 410, 1090 300" stroke="#25d7ff" stroke-width="7" fill="none" stroke-linecap="round" opacity=".85"/>
+<path d="M620 405 C670 592, 853 426, 908 300" stroke="#25d7ff" stroke-width="7" fill="none" stroke-linecap="round" opacity=".85"/>
+<rect x="895" y="280" width="250" height="60" rx="12" fill="#06182d" stroke="#25d7ff" stroke-opacity=".35"/>
+<text x="1020" y="320" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="900" fill="#25d7ff" text-anchor="middle">PATCH BAY ALPHA</text>
+<rect x="58" y="642" width="1164" height="2" fill="#25d7ff" opacity=".35"/></svg>

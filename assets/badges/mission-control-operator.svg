@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="520" viewBox="0 0 420 520"><defs><filter id="s"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#000" flood-opacity="0.28"/></filter><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#081f3a"/><stop offset="1" stop-color="#030914"/></linearGradient></defs>
+<rect width="420" height="520" rx="36" fill="#f8fafc"/>
+<rect x="18" y="18" width="384" height="484" rx="30" fill="url(#bg)" stroke="#cbd8e7" stroke-opacity=".22"/>
+<polygon points="210,64 320,128 320,256 210,320 100,256 100,128" fill="#a78bfa" opacity=".22" stroke="#a78bfa" stroke-width="8" filter="url(#s)"/>
+<g transform="translate(100 78)" fill="#a78bfa" stroke="#a78bfa" stroke-linejoin="round"><rect x="52" y="62" width="116" height="76" rx="12"/><path d="M72 112 L96 92 L118 108 L148 82" fill="none" stroke-width="10" stroke-linecap="round"/><rect x="90" y="148" width="40" height="12" rx="4"/></g>
+<text x="210" y="350" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="900" fill="#ffb703" text-anchor="middle">SOTE MISSION BADGE</text>
+<text x="210" y="405" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="900" fill="#f8fafc" text-anchor="middle">Mission Control Operator</text>
+<text x="210" y="447" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#d8e3ef" text-anchor="middle">Monitor • Escalate</text>
+<rect x="78" y="468" width="264" height="2" fill="#25d7ff" opacity=".45"/></svg>
