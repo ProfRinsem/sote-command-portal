@@ -1,36 +1,24 @@
-# CCAC SOTE Command Portal
+# SOTE Command Portal v0.9 Approved Media Baseline
 
-Version: v0.9 True Baseline Build
+This package rebuilds the SOTE Command Portal from the recovered Drive backup and binds the correct approved media set into the website.
 
-This repository hosts the prototype website for the CCAC Student-Operated Technology Ecosystem (SOTE).
+## What is included
 
-## Current baseline
+- Full v0.8 site structure with individual pages retained
+- Recovered approved branding graphics
+- Approved character portraits and character one-sheets
+- Approved hero, zones overview, Mission Control, Rocket's Forge, Cyber Defense Command, and facility tour map visuals
+- Approved Technology Cadet: First Signal mission-pass artwork
+- Approved mission-board icons
+- Approved Student Technology Corps pathway graphic
+- Complete approved media library preserved under `assets/approved-media/`
+- Facility reference photos preserved under `assets/reference-photos/`
+- Site-friendly aliases under `assets/img/`
 
-The v0.9 true baseline combines:
+## Deployment
 
-- Full portal page structure
-- Approved visitor tour sequence
-- Approved tour media set
-- Visitor one-sheet handout
-- Mission badge gallery
-- Project status board with approved status icons
-- Student Technology Corps progression
-- Character and mascot page
-- Ask SOTEE concept page
-- Individual zone pages
-- GitHub Pages cache-busting with `?v=0.9` asset references
+For GitHub Pages, place the contents of this folder in the root of `ProfRinsem/sote-command-portal` and publish from `main` / `/root`.
 
-## GitHub Pages
+## Control rule
 
-Publish from:
-
-- Branch: `main`
-- Folder: `/ root`
-
-Expected preview URL:
-
-`https://profrinsem.github.io/sote-command-portal/`
-
-## Safety note
-
-This is a public prototype preview. Do not include passwords, internal-only IP addresses, student data, production credentials, or sensitive operational details.
+Do not replace files in `assets/approved-media/` with generated stand-ins. New media should be added through the manifest and then intentionally referenced by the site.
