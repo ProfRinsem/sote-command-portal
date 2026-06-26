@@ -1,38 +1,44 @@
 [
   {
     "title": "First Signal",
-    "type": "Visitor mission",
-    "desc": "Open the one-sheet, visit the major zones, identify one system, one support task, and one cyber defense task.",
-    "owner": "Technology Cadet"
+    "type": "Visitor / Cadet",
+    "location": "CEIT 325",
+    "outcome": "Earn Technology Cadet readiness by identifying the ecosystem, zones, characters, and one student-operated task."
   },
   {
-    "title": "Photo to Inventory",
-    "type": "Work from anywhere",
-    "desc": "Turn equipment photos into a draft inventory list with model, likely role, rack location, and unknowns.",
-    "owner": "Infrastructure Technician"
+    "title": "Cable Trace",
+    "type": "Hands-on",
+    "location": "Patch Bay Alpha",
+    "outcome": "Trace a cable path, label both ends, and document it for a Cable Runner badge."
   },
   {
-    "title": "Ticket Cleanup",
-    "type": "Work from anywhere",
-    "desc": "Review open tasks and mark items waiting on Steve or another outside party as Pending Outside Input.",
-    "owner": "Mission Control Operator"
+    "title": "Switch Console Check",
+    "type": "Infrastructure",
+    "location": "Mission Control",
+    "outcome": "Open a console path, verify switch identity, and capture a clean validation note."
   },
   {
-    "title": "Badge Criteria Draft",
-    "type": "Documentation",
-    "desc": "Write the completion checklist for one mission badge using clear student-facing language.",
-    "owner": "Student Technology Corps"
+    "title": "Template Inventory",
+    "type": "From Anywhere",
+    "location": "Rocket's Forge",
+    "outcome": "Review proposed VM templates and prepare documentation for the image repository."
   },
   {
-    "title": "ACE Scenario Pack",
-    "type": "Help desk",
-    "desc": "Draft three simulated help desk tickets tied to Windows, Linux, networking, or account support.",
-    "owner": "Help Desk Technician"
+    "title": "Ticket Simulation Draft",
+    "type": "From Anywhere",
+    "location": "Ace's Support Command",
+    "outcome": "Write a realistic ACE Service Desk ticket for AD, password reset, network, or VM support practice."
   },
   {
-    "title": "Tour Stop Script",
-    "type": "Visitor experience",
-    "desc": "Write a one-minute explanation for one zone using what students see, what they do, and why it matters.",
-    "owner": "Technology Cadet"
+    "title": "Cyber Scenario Outline",
+    "type": "From Anywhere",
+    "location": "Cyber Defense Command",
+    "outcome": "Draft a safe cyber range scenario with objective, allowed actions, evidence, and debrief questions."
+  },
+  {
+    "title": "Status Board Update",
+    "type": "Operations",
+    "location": "Mission Control",
+    "outcome": "Update a project card with status, blocker, waiting-on field, and next action."
   }
 ]

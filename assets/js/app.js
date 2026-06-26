@@ -1,22 +1,51 @@
 
-const toggle = document.querySelector('.menu-toggle');
-const mobile = document.querySelector('.mobile-nav');
-if(toggle && mobile){ toggle.addEventListener('click',()=>{ mobile.classList.toggle('open'); }); }
-const tourStops = [
-  {kicker:'Start Tour', name:'Welcome to SOTE', image:'assets/tour/start-tour.svg', desc:'Students do not just study technology. They operate it.', sees:'A branded command portal that makes the ecosystem feel real.', focus:'Access. Learn. Build. Defend. Lead.'},
-  {kicker:'Stop 1', name:'CEIT 325 Classroom', image:'assets/tour/ceit-325-classroom.svg', desc:'The teaching floor and visitor launch point.', sees:'Classroom workstations connected to real lab infrastructure paths.', focus:'Learn the environment and begin First Signal.'},
-  {kicker:'Stop 2', name:'Mission Control', image:'assets/tour/mission-control.svg', desc:'The operations center for visibility, tickets, console access, and briefings.', sees:'Status boards, command wall concepts, switch access, and mission work.', focus:'Observe. Connect. Diagnose. Resolve.'},
-  {kicker:'Stop 3', name:"Rocket's Forge", image:'assets/tour/rockets-forge.svg', desc:'The teaching datacenter where services are built and hosted.', sees:'Servers, storage, VM templates, Proxmox, and core services.', focus:'Build. Provision. Host. Orchestrate.'},
-  {kicker:'Stop 4', name:'Western Pennsylvania Cyber Defense Command', image:'assets/tour/cyber-defense-command.svg', desc:'The isolated cyber range and defense training environment.', sees:'Cyber range compute, scenarios, recovery work, and defense missions.', focus:'Detect. Defend. Investigate. Recover.'},
-  {kicker:'Stop 5', name:'Patch Bay Alpha', image:'assets/tour/patch-bay-alpha.svg', desc:'The security edge staging bay and patching zone.', sees:'Firewalls, router staging, patch panels, and cable paths.', focus:'Connect. Patch. Verify. Launch.'},
-  {kicker:'Stop 6', name:"Rocket's Engineering Bay", image:'assets/tour/rockets-engineering-bay.svg', desc:'The R&D, staging, parts, and repair area.', sees:'Hardware staging, Rocket’s Parts Locker, testing, and build prep.', focus:'Prototype. Document. Test. Improve.'},
-  {kicker:'Mission Complete', name:'Technology Cadet Launch Point', image:'assets/tour/mission-complete.svg', desc:'The visitor can now explain the SOTE model and start the badge path.', sees:'A clear first step into the Student Technology Corps.', focus:'Claim Technology Cadet and keep going.'}
-];
-function setTour(i){
-  const s = tourStops[i]; if(!s) return;
-  const ids = {tourKicker:s.kicker,tourName:s.name,tourDescription:s.desc,tourStudentSees:s.sees,tourMissionFocus:s.focus};
-  Object.entries(ids).forEach(([id,val])=>{ const el=document.getElementById(id); if(el) el.textContent=val; });
-  const img=document.getElementById('tourImage'); if(img){img.src=s.image; img.alt=s.name;}
-  document.querySelectorAll('.tour-button').forEach((b,idx)=>b.classList.toggle('active',idx===i));
+const SOTE_VERSION = "v0.9";
+const ASSET_VERSION = "0.9";
+const tourStops = [{"kicker": "Start Tour", "name": "Welcome to SOTE", "slug": "index", "visual": "assets/tour/start-tour.svg", "desc": "Students do not just study technology. They operate it.", "sees": "A branded command portal that makes the ecosystem feel real.", "focus": "Access. Learn. Build. Defend. Lead."}, {"kicker": "Stop 1", "name": "CEIT 325 Classroom", "slug": "ceit-325-classroom", "visual": "assets/tour/ceit-325-classroom.svg", "desc": "The classroom is the student launch point for operating the ecosystem.", "sees": "Workstations, instruction, and access terminals.", "focus": "Begin with First Signal and Technology Cadet readiness."}, {"kicker": "Stop 2", "name": "Mission Control", "slug": "mission-control", "visual": "assets/tour/mission-control.svg", "desc": "The operator floor for network status, troubleshooting, console access, and briefings.", "sees": "Switching, console workflows, status boards, and command-center language.", "focus": "Observe, connect, diagnose, and resolve."}, {"kicker": "Stop 3", "name": "Rocket's Forge", "slug": "rockets-forge", "visual": "assets/tour/rockets-forge.svg", "desc": "The teaching datacenter where students build, provision, host, and orchestrate.", "sees": "Servers, Proxmox, storage, templates, and infrastructure services.", "focus": "Rocket Approved builds and repeatable documentation."}, {"kicker": "Stop 4", "name": "Western Pennsylvania Cyber Defense Command", "slug": "western-pennsylvania-cyber-defense-command", "visual": "assets/tour/cyber-defense-command.svg", "desc": "The cyber range where students practice defense, investigation, and recovery.", "sees": "Cyber range systems, scenarios, and Sir Kingston watchlist identity.", "focus": "Detect, defend, investigate, and recover."}, {"kicker": "Stop 5", "name": "Patch Bay Alpha", "slug": "patch-bay-alpha", "visual": "assets/tour/patch-bay-alpha.svg", "desc": "The physical-layer and security-edge staging bay.", "sees": "Orange wall, blue cabling, patch rack, cable tray, and security-edge staging.", "focus": "CONNECT. PATCH. VERIFY."}, {"kicker": "Stop 6", "name": "Rocket's Engineering Bay", "slug": "rockets-engineering-bay", "visual": "assets/tour/rockets-engineering-bay.svg", "desc": "The R&D and hardware staging space for server prep, parts validation, and experiments.", "sees": "Staged hardware, rails, parts, and engineering workbench workflows.", "focus": "Inspect, stage, test, and document."}, {"kicker": "Final", "name": "Mission Complete", "slug": "badges", "visual": "assets/tour/mission-complete.svg", "desc": "Visitors can complete First Signal and claim the Technology Cadet badge.", "sees": "A pathway from visitor to Student Technology Corps member.", "focus": "Turn curiosity into participation."}];
+const menuButton = document.querySelector('.menu-toggle');
+const mobileNav = document.querySelector('.mobile-nav');
+if (menuButton && mobileNav) {
+  menuButton.addEventListener('click', () => {
+    const open = mobileNav.classList.toggle('open');
+    menuButton.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
 }
-document.querySelectorAll('.tour-button').forEach((b,i)=>b.addEventListener('click',()=>setTour(i)));
+let activeTourIndex = 0;
+function updateTour(index) {
+  if (!tourStops.length) return;
+  activeTourIndex = (index + tourStops.length) % tourStops.length;
+  const stop = tourStops[activeTourIndex];
+  const img = document.getElementById('tourVisualImg');
+  const kicker = document.getElementById('tourKicker');
+  const name = document.getElementById('tourName');
+  const desc = document.getElementById('tourDescription');
+  const sees = document.getElementById('tourStudentSees');
+  const focus = document.getElementById('tourMissionFocus');
+  if (img) { img.src = stop.visual + '?v=' + ASSET_VERSION; img.alt = stop.name + ' approved media card'; }
+  if (kicker) kicker.textContent = stop.kicker;
+  if (name) name.textContent = stop.name;
+  if (desc) desc.textContent = stop.desc;
+  if (sees) sees.textContent = stop.sees;
+  if (focus) focus.textContent = stop.focus;
+  document.querySelectorAll('.tour-stop').forEach((button, i) => button.classList.toggle('active', i === activeTourIndex));
+}
+document.querySelectorAll('.tour-stop').forEach((button) => {
+  button.addEventListener('click', () => updateTour(Number(button.dataset.tourIndex || 0)));
+});
+const nextTour = document.getElementById('nextTour');
+const prevTour = document.getElementById('prevTour');
+if (nextTour) nextTour.addEventListener('click', () => updateTour(activeTourIndex + 1));
+if (prevTour) prevTour.addEventListener('click', () => updateTour(activeTourIndex - 1));
+const pills = document.querySelectorAll('.filter-pill');
+const projectCards = document.querySelectorAll('.project-card');
+pills.forEach((pill) => {
+  pill.addEventListener('click', () => {
+    pills.forEach((p) => p.classList.remove('active'));
+    pill.classList.add('active');
+    const filter = pill.dataset.filter;
+    projectCards.forEach((card) => {
+      card.style.display = (filter === 'all' || card.dataset.status === filter) ? '' : 'none';
+    });
+  });
+});
+updateTour(0);

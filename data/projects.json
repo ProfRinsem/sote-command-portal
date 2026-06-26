@@ -1,79 +1,86 @@
 [
   {
-    "title": "Mission Control Access Switches",
+    "name": "Mission Control Access Switching",
     "status": "Build in Progress",
-    "area": "Rack 1 - Mission Control",
-    "summary": "Commission R1-SW01 through R1-SW03, validate classroom workstation paths, and document access switch baselines.",
-    "action": "Wipe and recommission R1-SW01, then finish validation notes."
+    "zone": "Mission Control",
+    "summary": "Rack 1 access switches, classroom workstation paths, console validation, and CR 1.1 updates."
   },
   {
-    "title": "Rocket\u2019s Forge Proxmox Core",
+    "name": "Rocket's Forge Proxmox Core",
     "status": "Build in Progress",
-    "area": "Rack 2 - Rocket's Forge",
-    "summary": "Prepare R2-PVE01, R2-PVE02, and R2-PVE03 as the virtualization foundation for teaching services.",
-    "action": "Validate RAM, storage, iDRAC access, and first service deployment."
+    "zone": "Rocket's Forge",
+    "summary": "R2-PVE host commissioning, management access, shared templates, and first infrastructure services."
   },
   {
-    "title": "Rocket\u2019s Forge Storage and Image Repository",
+    "name": "Rocket's Forge Shared Storage and Image Repository",
     "status": "Ready to Build",
-    "area": "Rack 2 - Rocket's Forge",
-    "summary": "Use Dell PowerEdge R930 class hardware for ISO storage, VM templates, restore staging, and Proxmox backups.",
-    "action": "Inventory drives, select TrueNAS or Linux storage model, then connect to Proxmox."
+    "zone": "Rocket's Forge",
+    "summary": "R930 storage role, ISO library, VM templates, backup datastore, and controlled image repository."
   },
   {
-    "title": "Western Pennsylvania Cyber Defense Command",
+    "name": "Windows Server AD Training Pods",
+    "status": "Proposal Drafted",
+    "zone": "Rocket's Forge",
+    "summary": "Launch Crew pods with one Windows Server VM and three virtual admin workstations per pod."
+  },
+  {
+    "name": "ACE Service Desk",
+    "status": "Proposal Drafted",
+    "zone": "Ace's Support Command",
+    "summary": "GLPI-based student help desk workflow, ticket scenarios, and support simulation path."
+  },
+  {
+    "name": "Western Pennsylvania Cyber Defense Command Cyber Range",
     "status": "Build in Progress",
-    "area": "Rack 3 - Cyber Defense Command",
-    "summary": "Operate the HP c3000 and BL460c Gen9 blade environment as the cyber range compute platform.",
-    "action": "Resolve management access and create initial VM templates."
+    "zone": "Cyber Defense Command",
+    "summary": "Blade-based Proxmox foundation, cyber range image path, storage expansion, and scenario library."
   },
   {
-    "title": "Second R930 Cyber Defense Storage Host",
-    "status": "Proposal Drafted",
-    "area": "Rack 3 - Cyber Defense Command",
-    "summary": "Integrate the second R930 as cyber range storage while documenting power, cooling, and controlled startup policies.",
-    "action": "Complete power draw review and rack placement decision."
-  },
-  {
-    "title": "Patch Bay Alpha Security Edge Staging Bay",
+    "name": "Dual Firewall Security Boundary",
     "status": "Ready to Build",
-    "area": "Patch Bay Alpha",
-    "summary": "Rack one Fortinet firewall, one Palo Alto firewall, and one Cisco 2900 Series router as a non-production security-edge staging bay.",
-    "action": "Rack equipment, cable management, label, photograph, and document."
+    "zone": "Rack 2 / Rack 3",
+    "summary": "Fortinet and Palo Alto boundary model between Rocket's Forge and the Cyber Defense Command."
   },
   {
-    "title": "ACE Service Desk",
-    "status": "Proposal Drafted",
-    "area": "Ace's Support Command",
-    "summary": "Deploy GLPI as the student-facing help desk and simulated support workflow platform.",
-    "action": "Build R2-HDSK01 and define first ticket categories."
+    "name": "Patch Bay Alpha Security Edge Staging Bay",
+    "status": "Ready to Build",
+    "zone": "Patch Bay Alpha",
+    "summary": "One Fortinet, one Palo Alto, and one Cisco 2900 staged as a training and demonstration edge bay."
   },
   {
-    "title": "SOTE Command Wall",
-    "status": "Proposal Drafted",
-    "area": "Mission Control",
-    "summary": "Display service status, cyber range activity, project board, ACE tickets, rack health, maps, and student missions.",
-    "action": "Define R1-DISP01 kiosk workflow and dashboard rotation."
-  },
-  {
-    "title": "Ask SOTEE Kiosk",
+    "name": "Rocket's Parts Locker",
     "status": "Concept",
-    "area": "Mission Control",
-    "summary": "Provide an interactive student and visitor assistant for SOTE questions, missions, documentation lookup, and next steps.",
-    "action": "Create approved FAQ and safe response boundaries."
+    "zone": "Rocket's Engineering Bay",
+    "summary": "Quartermaster-style staging nook for rails, cables, drive caddies, adapters, and rack hardware."
   },
   {
-    "title": "SOTE Mission Badges",
-    "status": "Proposal Drafted",
-    "area": "Student Technology Corps",
-    "summary": "Create collectible digital and printable badges tied to hands-on mission completion.",
-    "action": "Connect badge criteria to mission queue and student roles."
-  },
-  {
-    "title": "Rocket\u2019s Parts Locker",
+    "name": "SOTE Command Wall",
     "status": "Concept",
-    "area": "Rocket's Engineering Bay",
-    "summary": "Organize spare parts, rails, cables, adapters, transceivers, and repair inventory into a student-managed locker system.",
-    "action": "Create inventory bins, labels, and intake checklist."
+    "zone": "Mission Control",
+    "summary": "Live NOC/SOC-style wall showing systems online, status, rack health, cyber range state, and student missions."
+  },
+  {
+    "name": "SOTEE AI Operations Copilot",
+    "status": "Concept",
+    "zone": "Ask SOTEE",
+    "summary": "Controlled knowledge assistant using approved SOTE documentation, tickets, build logs, and command references."
+  },
+  {
+    "name": "Student Mission Badges",
+    "status": "Ready to Build",
+    "zone": "Student Technology Corps",
+    "summary": "Digital and printable badges for hands-on SOTE progression and visible student achievement."
+  },
+  {
+    "name": "SOTE Cyber Arena",
+    "status": "Concept",
+    "zone": "Cyber Defense Command",
+    "summary": "Red Team vs. Blue Team event series for infrastructure, incident response, help desk, and defense missions."
+  },
+  {
+    "name": "Rocket's Forge Reactor Monitor",
+    "status": "Concept",
+    "zone": "Rocket's Forge",
+    "summary": "Sensors, lights, and dashboard views for rack temperature, humidity, airflow, and power awareness."
   }
 ]

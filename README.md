@@ -1,37 +1,36 @@
-# CCAC SOTE Command Portal v0.8 Full Portal Reconciliation Build
+# CCAC SOTE Command Portal
 
-This build restores the broader portal structure from the v0.7-era site and merges in the visitor tour additions from v0.2.
+Version: v0.9 True Baseline Build
 
-## Restored individual pages
+This repository hosts the prototype website for the CCAC Student-Operated Technology Ecosystem (SOTE).
 
-- Home
-- Tour Mode
-- Zone Map
-- Project Status Board
-- Project Index
-- Mission Queue
-- Mission Badges
-- Visitor One-Sheet
-- Student Technology Corps
-- Characters
-- Ask SOTEE
-- Deployment Notes
-- Individual zone pages under `/pages/`
+## Current baseline
 
-## Included visitor assets
+The v0.9 true baseline combines:
 
-- Approved tour media cards
-- Updated Patch Bay Alpha tour card
-- Approved status icon set
+- Full portal page structure
+- Approved visitor tour sequence
+- Approved tour media set
+- Visitor one-sheet handout
 - Mission badge gallery
-- Visitor one-sheet HTML and PDF
-- Mission badge sheet PDF
+- Project status board with approved status icons
+- Student Technology Corps progression
+- Character and mascot page
+- Ask SOTEE concept page
+- Individual zone pages
+- GitHub Pages cache-busting with `?v=0.9` asset references
 
-## Test deployment
+## GitHub Pages
 
-For Netlify Drop, drag the folder that contains `index.html` into Netlify Drop.
-For GitHub Pages, publish the repository root from the `main` branch.
+Publish from:
 
-## Future internal deployment
+- Branch: `main`
+- Folder: `/ root`
 
-Future internal hosting target: `R2-WEB01` in Rocket's Forge.
+Expected preview URL:
+
+`https://profrinsem.github.io/sote-command-portal/`
+
+## Safety note
+
+This is a public prototype preview. Do not include passwords, internal-only IP addresses, student data, production credentials, or sensitive operational details.

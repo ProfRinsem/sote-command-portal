@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Ace",
+    "role": "Frontline Technology Hero",
+    "img": "assets/img/ace-wildcat.jpeg",
+    "summary": "Represents student leadership, teamwork, help desk service, and workforce readiness."
+  },
+  {
+    "name": "Professor Rocket",
+    "role": "Chief Engineer and Forge Master",
+    "img": "assets/img/professor-rocket.jpeg",
+    "summary": "Represents infrastructure, engineering discipline, documentation, curiosity, and Rocket Approved builds."
+  },
+  {
+    "name": "Sir Kingston",
+    "role": "Cyber Defense Sentinel",
+    "img": "assets/img/sir-kingston-shield.svg",
+    "summary": "Represents the Western Pennsylvania Cyber Defense Command, defense discipline, watchlists, and controlled cyber range work."
+  },
+  {
+    "name": "SOTEE",
+    "role": "AI Knowledge Owl",
+    "img": "assets/img/sotee-owl.svg",
+    "summary": "Represents the future Ask SOTEE kiosk and controlled SOTE knowledge assistant."
+  },
+  {
+    "name": "Cypher Raven",
+    "role": "Adversary Concept",
+    "img": "assets/img/cypher-raven.svg",
+    "summary": "Represents noise, chaos, misconfiguration, and the challenge students learn to overcome safely."
+  }
+]

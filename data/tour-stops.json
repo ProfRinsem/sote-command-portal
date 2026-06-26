@@ -2,65 +2,73 @@
   {
     "kicker": "Start Tour",
     "name": "Welcome to SOTE",
-    "slug": "welcome",
-    "image": "assets/tour/start-tour.svg",
-    "student": "A mission-based first look at the student-operated ecosystem.",
+    "slug": "index",
+    "visual": "assets/tour/start-tour.svg",
+    "desc": "Students do not just study technology. They operate it.",
+    "sees": "A branded command portal that makes the ecosystem feel real.",
     "focus": "Access. Learn. Build. Defend. Lead."
   },
   {
     "kicker": "Stop 1",
     "name": "CEIT 325 Classroom",
     "slug": "ceit-325-classroom",
-    "image": "assets/tour/ceit-325-classroom.svg",
-    "student": "Rows of student workstations that become the entry point into real infrastructure.",
-    "focus": "Learn the environment and begin the First Signal mission."
+    "visual": "assets/tour/ceit-325-classroom.svg",
+    "desc": "The classroom is the student launch point for operating the ecosystem.",
+    "sees": "Workstations, instruction, and access terminals.",
+    "focus": "Begin with First Signal and Technology Cadet readiness."
   },
   {
     "kicker": "Stop 2",
     "name": "Mission Control",
     "slug": "mission-control",
-    "image": "assets/tour/mission-control.svg",
-    "student": "The operator floor for observation, service status, tickets, console access, and daily mission work.",
+    "visual": "assets/tour/mission-control.svg",
+    "desc": "The operator floor for network status, troubleshooting, console access, and briefings.",
+    "sees": "Switching, console workflows, status boards, and command-center language.",
     "focus": "Observe, connect, diagnose, and resolve."
   },
   {
     "kicker": "Stop 3",
     "name": "Rocket's Forge",
     "slug": "rockets-forge",
-    "image": "assets/tour/rockets-forge.svg",
-    "student": "The teaching datacenter where servers, storage, templates, and services are built.",
-    "focus": "Build, provision, host, and orchestrate."
+    "visual": "assets/tour/rockets-forge.svg",
+    "desc": "The teaching datacenter where students build, provision, host, and orchestrate.",
+    "sees": "Servers, Proxmox, storage, templates, and infrastructure services.",
+    "focus": "Rocket Approved builds and repeatable documentation."
   },
   {
     "kicker": "Stop 4",
     "name": "Western Pennsylvania Cyber Defense Command",
     "slug": "western-pennsylvania-cyber-defense-command",
-    "image": "assets/tour/cyber-defense-command.svg",
-    "student": "The cyber range space for controlled defense, investigation, recovery, and scenario work.",
+    "visual": "assets/tour/cyber-defense-command.svg",
+    "desc": "The cyber range where students practice defense, investigation, and recovery.",
+    "sees": "Cyber range systems, scenarios, and Sir Kingston watchlist identity.",
     "focus": "Detect, defend, investigate, and recover."
   },
   {
     "kicker": "Stop 5",
     "name": "Patch Bay Alpha",
     "slug": "patch-bay-alpha",
-    "image": "assets/tour/patch-bay-alpha.svg",
-    "student": "The security edge staging bay and patching zone for routers, firewalls, and network paths.",
-    "focus": "Connect. Patch. Verify. Launch."
+    "visual": "assets/tour/patch-bay-alpha.svg",
+    "desc": "The physical-layer and security-edge staging bay.",
+    "sees": "Orange wall, blue cabling, patch rack, cable tray, and security-edge staging.",
+    "focus": "CONNECT. PATCH. VERIFY."
   },
   {
     "kicker": "Stop 6",
     "name": "Rocket's Engineering Bay",
     "slug": "rockets-engineering-bay",
-    "image": "assets/tour/rockets-engineering-bay.svg",
-    "student": "The hands-on build and R&D area for experiments, staging, parts, and repairs.",
-    "focus": "Prototype, document, test, and improve."
+    "visual": "assets/tour/rockets-engineering-bay.svg",
+    "desc": "The R&D and hardware staging space for server prep, parts validation, and experiments.",
+    "sees": "Staged hardware, rails, parts, and engineering workbench workflows.",
+    "focus": "Inspect, stage, test, and document."
   },
   {
-    "kicker": "Mission Complete",
-    "name": "Technology Cadet Launch Point",
-    "slug": "mission-complete",
-    "image": "assets/tour/mission-complete.svg",
-    "student": "The visitor can describe the ecosystem and claim the first badge path.",
-    "focus": "Start as a Technology Cadet and continue into the Student Technology Corps."
+    "kicker": "Final",
+    "name": "Mission Complete",
+    "slug": "badges",
+    "visual": "assets/tour/mission-complete.svg",
+    "desc": "Visitors can complete First Signal and claim the Technology Cadet badge.",
+    "sees": "A pathway from visitor to Student Technology Corps member.",
+    "focus": "Turn curiosity into participation."
   }
 ]

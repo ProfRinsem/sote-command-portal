@@ -1,57 +1,57 @@
 [
-  [
-    "Technology Cadet",
-    "technology-cadet.svg",
-    "First entry badge for visitors and new Student Technology Corps members."
-  ],
-  [
-    "Cable Runner",
-    "cable-runner.svg",
-    "Trace, label, and document a physical connection."
-  ],
-  [
-    "Switch Initiate",
-    "switch-initiate.svg",
-    "Console into a switch and verify baseline information."
-  ],
-  [
-    "VLAN Operator",
-    "vlan-operator.svg",
-    "Create, verify, and explain a segmented network path."
-  ],
-  [
-    "DHCP Defender",
-    "dhcp-defender.svg",
-    "Validate addressing and troubleshoot a DHCP issue."
-  ],
-  [
-    "Linux Launch Crew",
-    "linux-launch-crew.svg",
-    "Deploy or validate a Linux VM or service."
-  ],
-  [
-    "Windows Domain Builder",
-    "windows-domain-builder.svg",
-    "Build or administer an Active Directory training pod."
-  ],
-  [
-    "Help Desk Hero",
-    "help-desk-hero.svg",
-    "Resolve and document a simulated ACE Service Desk ticket."
-  ],
-  [
-    "Cyber Range Scout",
-    "cyber-range-scout.svg",
-    "Explore a safe cyber range target and document findings."
-  ],
-  [
-    "Firewall Guardian",
-    "firewall-guardian.svg",
-    "Verify a firewall path, rule, zone, or staging task."
-  ],
-  [
-    "Mission Control Operator",
-    "mission-control-operator.svg",
-    "Run a mission briefing, status check, or operations handoff."
-  ]
+  {
+    "slug": "technology-cadet",
+    "name": "Technology Cadet",
+    "description": "First entry badge for visitors and new Student Technology Corps members."
+  },
+  {
+    "slug": "cable-runner",
+    "name": "Cable Runner",
+    "description": "Trace, label, and document a physical connection."
+  },
+  {
+    "slug": "switch-initiate",
+    "name": "Switch Initiate",
+    "description": "Console into a switch and verify baseline information."
+  },
+  {
+    "slug": "vlan-operator",
+    "name": "VLAN Operator",
+    "description": "Create, verify, and explain a segmented network path."
+  },
+  {
+    "slug": "dhcp-defender",
+    "name": "DHCP Defender",
+    "description": "Validate addressing and troubleshoot a DHCP issue."
+  },
+  {
+    "slug": "linux-launch-crew",
+    "name": "Linux Launch Crew",
+    "description": "Deploy or validate a Linux VM or service."
+  },
+  {
+    "slug": "windows-domain-builder",
+    "name": "Windows Domain Builder",
+    "description": "Build or administer an Active Directory training pod."
+  },
+  {
+    "slug": "help-desk-hero",
+    "name": "Help Desk Hero",
+    "description": "Resolve and document a simulated ACE Service Desk ticket."
+  },
+  {
+    "slug": "cyber-range-scout",
+    "name": "Cyber Range Scout",
+    "description": "Explore a safe cyber range target and document findings."
+  },
+  {
+    "slug": "firewall-guardian",
+    "name": "Firewall Guardian",
+    "description": "Verify a firewall path, rule, zone, or staging task."
+  },
+  {
+    "slug": "mission-control-operator",
+    "name": "Mission Control Operator",
+    "description": "Run a mission briefing, status check, or operations handoff."
+  }
 ]

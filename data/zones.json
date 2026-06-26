@@ -1,65 +1,200 @@
 [
   {
-    "name": "CEIT 325 Classroom",
+    "num": "1",
     "slug": "ceit-325-classroom",
-    "tag": "Teaching floor",
-    "desc": "The student entry point for labs, demos, tours, and access into SOTE systems.",
-    "keywords": "Access / Learn / Practice"
+    "name": "CEIT 325 Classroom",
+    "subtitle": "Teaching floor and student access layer",
+    "keywords": "Learn / Access / Practice / Launch",
+    "summary": "The main instructional space where students meet the ecosystem, use classroom PCs as access terminals, and connect coursework to live SOTE infrastructure.",
+    "sees": "Rows of student workstations, dual-NIC lab access paths, briefing screens, and the first visible entry point into Mission Control.",
+    "mission": "Students begin with safe observation, lab citizenship, documentation, and First Signal orientation before operating deeper systems.",
+    "student_tasks": [
+      "Complete First Signal orientation",
+      "Identify workstation and access path",
+      "Open the visitor one-sheet",
+      "Explain how classroom PCs connect to the lab"
+    ],
+    "system_notes": [
+      "24 student workstations with lab access path",
+      "Works as the public and teaching entry point for the ecosystem",
+      "Best zone for tours, open houses, and first-day orientation"
+    ],
+    "media": "assets/tour/ceit-325-classroom.svg"
   },
   {
-    "name": "Mission Control",
+    "num": "2",
     "slug": "mission-control",
-    "tag": "Rack 1",
-    "desc": "The command and operations area for switch access, service visibility, support work, and briefings.",
-    "keywords": "Observe / Connect / Diagnose / Resolve"
+    "name": "Mission Control",
+    "subtitle": "Network operations and command center",
+    "keywords": "Observe / Connect / Diagnose / Resolve",
+    "summary": "Mission Control is the operator floor for network validation, console access, status checks, troubleshooting, ticket review, and student handoffs.",
+    "sees": "Rack 1 switching, console workflows, monitoring views, status boards, and a command-center style operating rhythm.",
+    "mission": "Students learn to observe the environment, connect safely, diagnose issues, document evidence, and escalate with clear notes.",
+    "student_tasks": [
+      "Validate access switch status",
+      "Open a console session",
+      "Record a ticket note",
+      "Brief the current system status"
+    ],
+    "system_notes": [
+      "Rack 1 - Mission Control access switching",
+      "Mission Control Console Array concept",
+      "Command Wall and operations display path"
+    ],
+    "media": "assets/tour/mission-control.svg"
   },
   {
-    "name": "Rocket's Forge",
+    "num": "3",
     "slug": "rockets-forge",
-    "tag": "Rack 2",
-    "desc": "The teaching datacenter for Proxmox, storage, templates, infrastructure services, and build work.",
-    "keywords": "Build / Provision / Host / Orchestrate"
+    "name": "Rocket's Forge",
+    "subtitle": "Teaching datacenter and virtualization core",
+    "keywords": "Build / Provision / Host / Orchestrate",
+    "summary": "Rocket's Forge hosts the SOTE services that make the ecosystem real: Proxmox, storage, templates, Windows and Linux teaching platforms, documentation, and management services.",
+    "sees": "Servers, aggregation switching, storage, VM templates, Proxmox hosts, and the build environment for student-operated infrastructure.",
+    "mission": "Students build services, provision VMs, validate templates, manage storage paths, and learn that infrastructure depends on repeatable documentation.",
+    "student_tasks": [
+      "Validate a Proxmox host",
+      "Stage an ISO or VM template",
+      "Document a server role",
+      "Explain Rocket Approved build criteria"
+    ],
+    "system_notes": [
+      "Rack 2 - Rocket's Forge",
+      "R2-PVE01/02/03 Proxmox host plan",
+      "Shared storage, image repository, and backup path"
+    ],
+    "media": "assets/tour/rockets-forge.svg"
   },
   {
-    "name": "Western Pennsylvania Cyber Defense Command",
+    "num": "4",
     "slug": "western-pennsylvania-cyber-defense-command",
-    "tag": "Rack 3",
-    "desc": "The cyber defense and range environment for controlled scenarios and blue team operations.",
-    "keywords": "Detect / Defend / Investigate / Recover"
+    "name": "Western Pennsylvania Cyber Defense Command",
+    "subtitle": "Cyber range and defense operations",
+    "keywords": "Detect / Defend / Investigate / Recover",
+    "summary": "The Western Pennsylvania Cyber Defense Command is the cyber range and scenario space where students practice safe defense, investigation, recovery, and incident communication.",
+    "sees": "Cyber range systems, blue-team scenarios, controlled vulnerable machines, security monitoring concepts, and Sir Kingston watchlist language.",
+    "mission": "Students learn to defend systems, investigate signals, document findings, and separate approved lab work from production environments.",
+    "student_tasks": [
+      "Open a cyber range briefing",
+      "Identify a safe target",
+      "Document evidence",
+      "Explain the boundary between lab and production"
+    ],
+    "system_notes": [
+      "Rack 3 - Western Pennsylvania Cyber Defense Command",
+      "HP c3000 and BL460c Gen9 foundation",
+      "R930 storage and image repository expansion path"
+    ],
+    "media": "assets/tour/cyber-defense-command.svg"
   },
   {
-    "name": "Command Briefing Room",
-    "slug": "command-briefing-room",
-    "tag": "Briefing",
-    "desc": "The planning, sponsor, demo, and mission debrief room connected to the ecosystem story.",
-    "keywords": "Brief / Plan / Review"
-  },
-  {
-    "name": "Ace's Support Command",
-    "slug": "aces-support-command",
-    "tag": "Help desk",
-    "desc": "The student support desk concept where ACE Service Desk workflows become visible and teachable.",
-    "keywords": "Triage / Ticket / Resolve"
-  },
-  {
-    "name": "Patch Bay Alpha",
+    "num": "5",
     "slug": "patch-bay-alpha",
-    "tag": "Patch and edge",
-    "desc": "The staging rack for patching, routing, firewall demonstrations, and security-edge learning.",
-    "keywords": "Patch / Route / Secure"
+    "name": "Patch Bay Alpha",
+    "subtitle": "Physical-layer staging and security edge bay",
+    "keywords": "Connect / Patch / Trace / Label",
+    "summary": "Patch Bay Alpha turns the physical layer into a student learning space for cabling, tracing, patching, documentation, router staging, and firewall staging.",
+    "sees": "Patch rack, blue cabling, orange wall treatment, cable tray, security-edge staging equipment, and the approved slogan: CONNECT. PATCH. VERIFY.",
+    "mission": "Students trace the path before they change the path. Every cable should have a purpose, a label, and a ticket or worksheet note.",
+    "student_tasks": [
+      "Trace a patch path",
+      "Label both ends of a cable",
+      "Document a router or firewall staging port",
+      "Verify link lights and port mapping"
+    ],
+    "system_notes": [
+      "Patch Bay Alpha security-edge staging bay",
+      "Fortinet, Palo Alto, and Cisco 2900 staging concept",
+      "Companion zone to Rack 2/Rack 3 security boundary work"
+    ],
+    "media": "assets/tour/patch-bay-alpha.svg"
   },
   {
-    "name": "Rocket's Engineering Bay",
+    "num": "6",
     "slug": "rockets-engineering-bay",
-    "tag": "R&D",
-    "desc": "The project bench for repairs, staging, inventory, Rocket\u2019s Parts Locker, and experiments.",
-    "keywords": "Stage / Repair / Prototype"
+    "name": "Rocket's Engineering Bay",
+    "subtitle": "R&D, staging, and hardware preparation",
+    "keywords": "Stage / Repair / Test / Document",
+    "summary": "Rocket's Engineering Bay is the workbench environment for hardware staging, server preparation, parts validation, and engineering experiments.",
+    "sees": "Bench space, spare servers, rails, storage components, parts staging, hardware inspection, and student engineering notes.",
+    "mission": "Students learn that professional infrastructure work begins before equipment is racked: inspect, stage, label, test, and document.",
+    "student_tasks": [
+      "Inspect staged equipment",
+      "Record serial/model information",
+      "Prepare rails or cabling",
+      "Move parts into the correct locker or ticket"
+    ],
+    "system_notes": [
+      "Supports R730/R820/R930 staging",
+      "Connects to Rocket's Parts Locker and Quartermaster Bay concept",
+      "Good zone for hardware inventory and pre-build tickets"
+    ],
+    "media": "assets/tour/rockets-engineering-bay.svg"
   },
   {
-    "name": "Rocket's Launch Pad",
+    "num": "7",
+    "slug": "aces-support-command",
+    "name": "Ace's Support Command",
+    "subtitle": "Student help desk and support workflow",
+    "keywords": "Listen / Triage / Support / Close",
+    "summary": "Ace's Support Command is the support desk identity for SOTE: ticket intake, simulated user support, account workflows, and student communication practice.",
+    "sees": "ACE Service Desk workflow, ticket queue concepts, frontline support language, and student-facing help desk identity.",
+    "mission": "Students practice professional support: clarify the problem, document the request, perform approved work, verify the fix, and close the loop.",
+    "student_tasks": [
+      "Open a simulated ticket",
+      "Classify the request",
+      "Write a clear resolution note",
+      "Connect support action to a badge or course outcome"
+    ],
+    "system_notes": [
+      "ACE Service Desk / GLPI proposal path",
+      "R2-HDSK01 target service identity",
+      "Help Desk Hero badge alignment"
+    ],
+    "media": "assets/tour/mission-control.svg"
+  },
+  {
+    "num": "8",
+    "slug": "command-briefing-room",
+    "name": "Command Briefing Room",
+    "subtitle": "Planning, debriefs, and tour storytelling",
+    "keywords": "Brief / Plan / Debrief / Align",
+    "summary": "The Command Briefing Room supports planning, tours, donor conversations, student debriefs, publication planning, and instructor coordination.",
+    "sees": "Briefing table, visitor conversations, project reviews, mission notes, and space for students to explain what they built.",
+    "mission": "Students learn to communicate technical work clearly, connect tasks to outcomes, and brief stakeholders with confidence.",
+    "student_tasks": [
+      "Give a two-minute mission update",
+      "Summarize a ticket",
+      "Present a project status card",
+      "Capture next actions from a debrief"
+    ],
+    "system_notes": [
+      "Best location for tours and stakeholder briefings",
+      "Connects website, one-sheet, status board, and publication pipeline",
+      "Supports Foundation and donor engagement storytelling"
+    ],
+    "media": "assets/tour/start-tour.svg"
+  },
+  {
+    "num": "9",
     "slug": "rockets-launch-pad",
-    "tag": "Wiring lab",
-    "desc": "The structured cabling and hands-on physical infrastructure training area.",
-    "keywords": "Terminate / Test / Certify"
+    "name": "Rocket's Launch Pad",
+    "subtitle": "Wiring lab and hands-on skills validation",
+    "keywords": "Terminate / Test / Certify / Launch",
+    "summary": "Rocket's Launch Pad is the wiring and skills validation space for cabling, punchdown practice, patch panels, simulated offices, and launch missions.",
+    "sees": "Structured cabling practice, cable testing, patch panels, wiring diagrams, and skills checkoff activities.",
+    "mission": "Students build confidence by turning physical skills into visible evidence: terminate, test, label, and document.",
+    "student_tasks": [
+      "Terminate a practice cable",
+      "Use a cable tester",
+      "Patch a simulated office path",
+      "Earn Cable Runner or related mission badge"
+    ],
+    "system_notes": [
+      "Supports cabling labs consumables proposal",
+      "Connects to student console kits and wiring missions",
+      "Good public demo zone for hands-on skills"
+    ],
+    "media": "assets/tour/start-tour.svg"
   }
 ]
