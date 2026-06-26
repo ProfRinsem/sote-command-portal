@@ -3,35 +3,326 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="CCAC Student-Operated Technology Ecosystem Command Portal v0.9.">
-  <title>CCAC SOTE Command Portal v0.9</title>
-  <link rel="icon" href="assets/icons/paw-badge.svg?v=0.9" type="image/svg+xml">
-  <link rel="manifest" href="manifest.json?v=0.9">
-  <link rel="stylesheet" href="assets/css/styles.css?v=0.9">
+  <meta name="description" content="SOTE Project Status Board and proposal progress dashboard.">
+  <title>Projects | SOTE Command Portal</title>
+  <link rel="stylesheet" href="assets/css/styles.css?v=0.9-approved">
 </head>
-<body id="top">
-<a class="skip-link" href="#main">Skip to main content</a>
-<div class="prototype-banner">Prototype Preview - Working draft for SOTE review and tester feedback. Not an official public CCAC website.</div>
-<header class="site-header">
-  <div class="container topbar">
-    <a class="brand" href="index.html" aria-label="CCAC SOTE Command Portal home">
-      <img src="assets/icons/paw-badge.svg?v=0.9" alt="" class="brand-mark">
-      <span><strong>CCAC SOTE</strong><small>v0.9 True Baseline Build</small></span>
-    </a>
-    <nav class="primary-nav" aria-label="Primary navigation"><a class="" href="index.html">Home</a><a class="" href="tour.html">Tour</a><a class="" href="zones.html">Zones</a><a class="" href="project-status.html">Status</a><a class="active" href="projects.html">Projects</a><a class="" href="mission-queue.html">Mission Queue</a><a class="" href="badges.html">Badges</a><a class="" href="handout.html">One-Sheet</a><a class="" href="corps.html">Student Corps</a><a class="" href="mascots.html">Characters</a><a class="" href="ask-sotee.html">Ask SOTEE</a><a class="" href="deployment.html">Deploy</a></nav>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobileNav">Menu</button>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="SOTE Command Portal home">
+        <img src="assets/img/brand/sote_paw_badge_icon.webp" alt="" width="52" height="52">
+        <span><strong>SOTE Command Portal</strong><small>The SOTE Codex, Mission Board, and Student Corps Profiles</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+<a href="start-here.html">Start Here</a>
+<a href="tour-mode.html">Tour Mode</a>
+<a href="tour-guide-kit.html">Tour Guide Kit</a>
+<a href="environment-map.html">Map</a>
+<a href="zones.html">Zones</a>
+<a href="characters.html">Characters</a>
+<a href="mission-board.html">Mission Board</a>
+<a href="badges.html">Badges</a>
+<a href="student-technology-corps.html">Student Corps</a>
+<a href="codex.html">Codex</a>
+<a class="active" href="projects.html">Projects</a>
+<a href="get-involved.html">Get Involved</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">v0.8 project status board</p>
+          <h1>The Projects page is now the public build tracker for SOTE.</h1>
+          <p class="hero-text">This board shows what is active, what is ready, what is still conceptual, what needs support, and where students can plug into real SOTE work.</p>
+          <div class="hero-actions">
+            <a class="button" href="#status-board">Open Status Board</a>
+            <a class="button secondary" href="project-submission.html">Submit a Project</a>
+            <a class="button secondary" href="mission-report-workflow.html">Mission Report Workflow</a>
+          </div>
+        </div>
+        <div class="project-pulse" aria-label="Project status summary">
+          <div><strong>4</strong><span>Builds in progress</span></div>
+          <div><strong>1</strong><span>Ready to build</span></div>
+          <div><strong>4</strong><span>Drafted proposals</span></div>
+          <div><strong>16</strong><span>Tracked projects</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt"><div class="container">
+      <div class="section-heading"><h2>What changed this week</h2><p>This area gives the portal a living “what is happening now” rhythm. Student reporters can update these cards after build days.</p></div>
+      <div class="card-grid">
+        <article class="card"><span class="tag green">New in v0.8</span><h3>Project cards now show progress</h3><p>Each proposal can display status, connected zone, connected character, pathway, next action, and mission tie-in.</p></article>
+        <article class="card"><span class="tag">Active build</span><h3>Command Portal becomes its own project</h3><p>The website itself is now a live Software Development Technician project with versioned releases and student update potential.</p></article>
+        <article class="card"><span class="tag blue">Operations value</span><h3>Build in Progress becomes visible</h3><p>Visitors and students can see that SOTE is being constructed in public, with clear next actions and safe progress notes.</p></article>
+      </div>
+    </div></section>
+
+    
+    <section class="section"><div class="container">
+      <div class="section-heading"><h2>Student project intake</h2><p>The status board should not only show faculty-created proposals. It should also give students a path to suggest useful work.</p></div>
+      <div class="two-grid">
+        <article class="card callout"><span class="tag">Submit a project</span><h3>Turn an idea into a proposal draft.</h3><p>A student can propose a mission, portal feature, dashboard, physical lab improvement, documentation project, tour experience, or automation idea.</p><a class="card-link" href="project-submission.html">Open project submission draft builder</a></article>
+        <article class="card"><span class="tag blue">Update from mission report</span><h3>Keep the board current.</h3><p>When a build day happens, the mission report becomes the input for updating statuses, blockers, weekly changes, and next actions.</p><a class="card-link" href="mission-report-workflow.html">Open mission report workflow</a></article>
+      </div>
+    </div></section>
+    <section class="section"><div class="container"><div class="section-heading"><h2>Project status icon set</h2><p>This recovered/generated status icon poster is included as the status-board visual reference. Future builds can crop it into individual status tiles if needed.</p></div><div class="card image-card"><img src="assets/img/status/sote-project-status-icon-set.webp" alt="SOTE Project Status Icon Set"></div></div></section><section class="section" id="status-board"><div class="container">
+      <div class="section-heading"><h2>SOTE Project Status Board</h2><p>Filter by status, category, or keyword. This is still a static local prototype, but it establishes the update pattern for future student-maintained project reporting.</p></div>
+      <div class="filter-panel">
+        <label for="project-search"><strong>Search projects</strong></label>
+        <input id="project-search" data-filter-input type="search" placeholder="Search by project, zone, character, pathway, mission, or next action">
+      </div>
+      <div class="status-filter-bar" aria-label="Filter by project status">
+        <button type="button" class="active" data-status-filter="all">All</button><button type="button" data-status-filter="Build in Progress">Build in Progress <span>4</span></button><button type="button" data-status-filter="Ready to Build">Ready to Build <span>1</span></button><button type="button" data-status-filter="Proposal Drafted">Proposal Drafted <span>4</span></button><button type="button" data-status-filter="Concept">Concept <span>5</span></button><button type="button" data-status-filter="Future / Backlog">Future / Backlog <span>2</span></button>
+      </div>
+      <div class="status-filter-bar bucket-filter" aria-label="Filter by project category">
+        <button type="button" data-status-filter="bucket:Active Builds">Active Builds <span>3</span></button><button type="button" data-status-filter="bucket:Ready for Build">Ready for Build <span>5</span></button><button type="button" data-status-filter="bucket:Experience Projects">Experience Projects <span>6</span></button><button type="button" data-status-filter="bucket:Future Expansion">Future Expansion <span>2</span></button>
+      </div>
+      <div class="project-board">
+        <article class="project-card" data-filter-card data-status="Build in Progress" data-bucket="Active Builds">
+  <div class="project-card-top"><span class="status-badge status-progress">Build in Progress</span><span class="priority-pill">High</span></div>
+  <h3>SOTE Command Portal</h3>
+  <p class="project-official">SOTE Command Portal and Codex</p>
+  <p>Static site packages v0.1 through v0.8 now establish the public front door, tour mode, zones, character canon, mission board, badges, and project status board.</p>
+  <div class="project-meta">
+    <span><strong>Zone</strong>Digital Front Door</span>
+    <span><strong>Character</strong>SOTEE</span>
+    <span><strong>Pathway</strong>Software Development Technician</span>
   </div>
-  <div class="container"><nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation"><a class="" href="index.html">Home</a><a class="" href="tour.html">Tour</a><a class="" href="zones.html">Zones</a><a class="" href="project-status.html">Status</a><a class="active" href="projects.html">Projects</a><a class="" href="mission-queue.html">Mission Queue</a><a class="" href="badges.html">Badges</a><a class="" href="handout.html">One-Sheet</a><a class="" href="corps.html">Student Corps</a><a class="" href="mascots.html">Characters</a><a class="" href="ask-sotee.html">Ask SOTEE</a><a class="" href="deployment.html">Deploy</a></nav></div>
-</header>
-<main id="main">
-<section class="page-hero"><div class="container"><p class="eyebrow">Project Index</p><h1>The live project portfolio in one place.</h1><p>Each card connects the visitor story to the actual build threads, proposals, and implementation tickets.</p></div></section><section class="section container"><div class="project-grid"><article class="card project-card" data-status="Build in Progress"><div class="project-head"><img src="assets/status/build-in-progress.svg?v=0.9" alt="Build in Progress"><div><span class="tag">Build in Progress</span><h3>Mission Control Access Switching</h3></div></div><p>Rack 1 access switches, classroom workstation paths, console validation, and CR 1.1 updates.</p><p class="micro"><strong>Zone:</strong> Mission Control</p></article><article class="card project-card" data-status="Build in Progress"><div class="project-head"><img src="assets/status/build-in-progress.svg?v=0.9" alt="Build in Progress"><div><span class="tag">Build in Progress</span><h3>Rocket&#x27;s Forge Proxmox Core</h3></div></div><p>R2-PVE host commissioning, management access, shared templates, and first infrastructure services.</p><p class="micro"><strong>Zone:</strong> Rocket&#x27;s Forge</p></article><article class="card project-card" data-status="Ready to Build"><div class="project-head"><img src="assets/status/ready-to-build.svg?v=0.9" alt="Ready to Build"><div><span class="tag">Ready to Build</span><h3>Rocket&#x27;s Forge Shared Storage and Image Repository</h3></div></div><p>R930 storage role, ISO library, VM templates, backup datastore, and controlled image repository.</p><p class="micro"><strong>Zone:</strong> Rocket&#x27;s Forge</p></article><article class="card project-card" data-status="Proposal Drafted"><div class="project-head"><img src="assets/status/proposal-drafted.svg?v=0.9" alt="Proposal Drafted"><div><span class="tag">Proposal Drafted</span><h3>Windows Server AD Training Pods</h3></div></div><p>Launch Crew pods with one Windows Server VM and three virtual admin workstations per pod.</p><p class="micro"><strong>Zone:</strong> Rocket&#x27;s Forge</p></article><article class="card project-card" data-status="Proposal Drafted"><div class="project-head"><img src="assets/status/proposal-drafted.svg?v=0.9" alt="Proposal Drafted"><div><span class="tag">Proposal Drafted</span><h3>ACE Service Desk</h3></div></div><p>GLPI-based student help desk workflow, ticket scenarios, and support simulation path.</p><p class="micro"><strong>Zone:</strong> Ace&#x27;s Support Command</p></article><article class="card project-card" data-status="Build in Progress"><div class="project-head"><img src="assets/status/build-in-progress.svg?v=0.9" alt="Build in Progress"><div><span class="tag">Build in Progress</span><h3>Western Pennsylvania Cyber Defense Command Cyber Range</h3></div></div><p>Blade-based Proxmox foundation, cyber range image path, storage expansion, and scenario library.</p><p class="micro"><strong>Zone:</strong> Cyber Defense Command</p></article><article class="card project-card" data-status="Ready to Build"><div class="project-head"><img src="assets/status/ready-to-build.svg?v=0.9" alt="Ready to Build"><div><span class="tag">Ready to Build</span><h3>Dual Firewall Security Boundary</h3></div></div><p>Fortinet and Palo Alto boundary model between Rocket&#x27;s Forge and the Cyber Defense Command.</p><p class="micro"><strong>Zone:</strong> Rack 2 / Rack 3</p></article><article class="card project-card" data-status="Ready to Build"><div class="project-head"><img src="assets/status/ready-to-build.svg?v=0.9" alt="Ready to Build"><div><span class="tag">Ready to Build</span><h3>Patch Bay Alpha Security Edge Staging Bay</h3></div></div><p>One Fortinet, one Palo Alto, and one Cisco 2900 staged as a training and demonstration edge bay.</p><p class="micro"><strong>Zone:</strong> Patch Bay Alpha</p></article><article class="card project-card" data-status="Concept"><div class="project-head"><img src="assets/status/concept.svg?v=0.9" alt="Concept"><div><span class="tag">Concept</span><h3>Rocket&#x27;s Parts Locker</h3></div></div><p>Quartermaster-style staging nook for rails, cables, drive caddies, adapters, and rack hardware.</p><p class="micro"><strong>Zone:</strong> Rocket&#x27;s Engineering Bay</p></article><article class="card project-card" data-status="Concept"><div class="project-head"><img src="assets/status/concept.svg?v=0.9" alt="Concept"><div><span class="tag">Concept</span><h3>SOTE Command Wall</h3></div></div><p>Live NOC/SOC-style wall showing systems online, status, rack health, cyber range state, and student missions.</p><p class="micro"><strong>Zone:</strong> Mission Control</p></article><article class="card project-card" data-status="Concept"><div class="project-head"><img src="assets/status/concept.svg?v=0.9" alt="Concept"><div><span class="tag">Concept</span><h3>SOTEE AI Operations Copilot</h3></div></div><p>Controlled knowledge assistant using approved SOTE documentation, tickets, build logs, and command references.</p><p class="micro"><strong>Zone:</strong> Ask SOTEE</p></article><article class="card project-card" data-status="Ready to Build"><div class="project-head"><img src="assets/status/ready-to-build.svg?v=0.9" alt="Ready to Build"><div><span class="tag">Ready to Build</span><h3>Student Mission Badges</h3></div></div><p>Digital and printable badges for hands-on SOTE progression and visible student achievement.</p><p class="micro"><strong>Zone:</strong> Student Technology Corps</p></article><article class="card project-card" data-status="Concept"><div class="project-head"><img src="assets/status/concept.svg?v=0.9" alt="Concept"><div><span class="tag">Concept</span><h3>SOTE Cyber Arena</h3></div></div><p>Red Team vs. Blue Team event series for infrastructure, incident response, help desk, and defense missions.</p><p class="micro"><strong>Zone:</strong> Cyber Defense Command</p></article><article class="card project-card" data-status="Concept"><div class="project-head"><img src="assets/status/concept.svg?v=0.9" alt="Concept"><div><span class="tag">Concept</span><h3>Rocket&#x27;s Forge Reactor Monitor</h3></div></div><p>Sensors, lights, and dashboard views for rack temperature, humidity, airflow, and power awareness.</p><p class="micro"><strong>Zone:</strong> Rocket&#x27;s Forge</p></article></div></section></main>
-<footer class="site-footer">
-  <div class="container footer-grid">
-    <div><img src="assets/icons/sote-command-portal-logo.svg?v=0.9" alt="SOTE Command Portal" class="footer-logo"><p>CCAC Student-Operated Technology Ecosystem</p></div>
-    <div><strong>Portal Version</strong><p>v0.9 True Baseline Build</p></div>
-    <div><strong>Canonical Baseline</strong><p>Full pages, approved tour media, one-sheet, badges, status icons, character set, and GitHub Pages cache-busting.</p></div>
-    <a href="#top" class="back-to-top">Back to top</a>
+  <div class="next-action"><strong>Next action:</strong> Continue refining project pages, add approved images, and prepare a student Git workflow for future updates.</div>
+  <div class="pill-row"><span class="pill">Mission: Portal Builder</span></div>
+  <a class="card-link" href="projects/command-portal.html">Open project page</a>
+</article><article class="project-card" data-filter-card data-status="Build in Progress" data-bucket="Active Builds">
+  <div class="project-card-top"><span class="status-badge status-progress">Build in Progress</span><span class="priority-pill">High</span></div>
+  <h3>Mission Control Switchline</h3>
+  <p class="project-official">Mission Control Access Switch Commissioning</p>
+  <p>R1-SW02 has been successfully commissioned using CR 1.1. R1-SW01 appears to need wipe and recommissioning because of the previous configuration/password issue.</p>
+  <div class="project-meta">
+    <span><strong>Zone</strong>Mission Control</span>
+    <span><strong>Character</strong>Professor Rocket</span>
+    <span><strong>Pathway</strong>Infrastructure Technician</span>
   </div>
-</footer>
-<script src="assets/js/app.js?v=0.9"></script>
-</body></html>
+  <div class="next-action"><strong>Next action:</strong> Update CR 1.1 with Mac terminal instructions, teaching callouts, and recommission R1-SW01.</div>
+  <div class="pill-row"><span class="pill">Mission: Switch Initiate</span></div>
+  <a class="card-link" href="projects/mission-control-access-switches.html">Open project page</a>
+</article><article class="project-card" data-filter-card data-status="Build in Progress" data-bucket="Active Builds">
+  <div class="project-card-top"><span class="status-badge status-progress">Build in Progress</span><span class="priority-pill">High</span></div>
+  <h3>Forge Compute Cluster</h3>
+  <p class="project-official">Rocket’s Forge Dell Server Infrastructure</p>
+  <p>R2-PVE01 has Proxmox installed. R2-PVE02 has fans installed but needs memory validation. R2-PVE03 remains part of the compute plan.</p>
+  <div class="project-meta">
+    <span><strong>Zone</strong>Rocket’s Forge</span>
+    <span><strong>Character</strong>Professor Rocket</span>
+    <span><strong>Pathway</strong>Infrastructure Technician</span>
+  </div>
+  <div class="next-action"><strong>Next action:</strong> Complete RAM installation and hardware validation, then continue Proxmox host commissioning.</div>
+  <div class="pill-row"><span class="pill">Mission: Proxmox First Boot</span></div>
+  <a class="card-link" href="projects/rockets-forge-dell-server-infrastructure.html">Open project page</a>
+</article><article class="project-card" data-filter-card data-status="Ready to Build" data-bucket="Ready for Build">
+  <div class="project-card-top"><span class="status-badge status-ready">Ready to Build</span><span class="priority-pill">High</span></div>
+  <h3>Forge Core Link</h3>
+  <p class="project-official">Rocket’s Forge Aggregation Switch</p>
+  <p>Aggregation switch command reference exists. Physical uplinks are staged, but the aggregation switch still needs configuration.</p>
+  <div class="project-meta">
+    <span><strong>Zone</strong>Rocket’s Forge / Patch Bay Alpha</span>
+    <span><strong>Character</strong>Professor Rocket</span>
+    <span><strong>Pathway</strong>Infrastructure Technician</span>
+  </div>
+  <div class="next-action"><strong>Next action:</strong> Commission R2-AGG01 using CR 2.1 and validate classroom switch paths into Rocket’s Forge.</div>
+  <div class="pill-row"><span class="pill">Mission: VLAN Operator</span></div>
+  <a class="card-link" href="projects/rockets-forge-aggregation-switch.html">Open project page</a>
+</article><article class="project-card" data-filter-card data-status="Proposal Drafted" data-bucket="Ready for Build">
+  <div class="project-card-top"><span class="status-badge status-drafted">Proposal Drafted</span><span class="priority-pill">High</span></div>
+  <h3>ACE Service Desk</h3>
+  <p class="project-official">ACE Service Desk Ticketing System</p>
+  <p>Proposal exists for GLPI help desk workflow hosted in Rocket’s Forge and used from Ace’s Support Command.</p>
+  <div class="project-meta">
+    <span><strong>Zone</strong>Ace’s Support Command</span>
+    <span><strong>Character</strong>Ace</span>
+    <span><strong>Pathway</strong>Help Desk Technician</span>
+  </div>
+  <div class="next-action"><strong>Next action:</strong> Deploy initial GLPI VM, create ticket categories, and connect sample tickets to Windows/AD and support missions.</div>
+  <div class="pill-row"><span class="pill">Mission: Help Desk Hero</span></div>
+  <a class="card-link" href="projects/ace-service-desk.html">Open project page</a>
+</article><article class="project-card" data-filter-card data-status="Proposal Drafted" data-bucket="Ready for Build">
+  <div class="project-card-top"><span class="status-badge status-drafted">Proposal Drafted</span><span class="priority-pill">High</span></div>
+  <h3>MCCA</h3>
+  <p class="project-official">Mission Control Console Array</p>
+  <p>Proposal exists for Raspberry Pi based console access to switches and infrastructure devices.</p>
+  <div class="project-meta">
+    <span><strong>Zone</strong>Mission Control</span>
+    <span><strong>Character</strong>Professor Rocket</span>
+    <span><strong>Pathway</strong>Infrastructure Technician</span>
+  </div>
+  <div class="next-action"><strong>Next action:</strong> Inventory Raspberry Pi hardware, console cables, mounts, power, and screen options.</div>
+  <div class="pill-row"><span class="pill">Mission: Console Cadet</span></div>
+  <a class="card-link" href="projects/mission-control-console-array.html">Open project page</a>
+</article><article class="project-card" data-filter-card data-status="Proposal Drafted" data-bucket="Ready for Build">
+  <div class="project-card-top"><span class="status-badge status-drafted">Proposal Drafted</span><span class="priority-pill">High</span></div>
+  <h3>Launch Crew Training Pods</h3>
+  <p class="project-official">Windows Server AD Training Pods</p>
+  <p>Four-pod Windows Server and Active Directory teaching platform model is documented around Launch Crews.</p>
+  <div class="project-meta">
+    <span><strong>Zone</strong>Rocket’s Forge</span>
+    <span><strong>Character</strong>Professor Rocket</span>
+    <span><strong>Pathway</strong>Infrastructure Technician / Help Desk Technician</span>
+  </div>
+  <div class="next-action"><strong>Next action:</strong> Confirm licensing approach, create base VM templates, and build LC01 as the first validated pod.</div>
+  <div class="pill-row"><span class="pill">Mission: Windows Domain Builder</span></div>
+  <a class="card-link" href="projects/windows-ad-training-pods.html">Open project page</a>
+</article><article class="project-card" data-filter-card data-status="Proposal Drafted" data-bucket="Ready for Build">
+  <div class="project-card-top"><span class="status-badge status-drafted">Proposal Drafted</span><span class="priority-pill">Medium</span></div>
+  <h3>Linux Launch Crew</h3>
+  <p class="project-official">Linux Teaching and Enterprise Support Platform</p>
+  <p>Proposal exists for Linux VM labs, command line, services, and enterprise support workflows.</p>
+  <div class="project-meta">
+    <span><strong>Zone</strong>Rocket’s Forge</span>
+    <span><strong>Character</strong>Professor Rocket</span>
+    <span><strong>Pathway</strong>Infrastructure Technician</span>
+  </div>
+  <div class="next-action"><strong>Next action:</strong> Create initial Ubuntu Server template and connect Linux missions to the Mission Board.</div>
+  <div class="pill-row"><span class="pill">Mission: Linux Launch Crew</span></div>
+  <a class="card-link" href="projects/linux-teaching-platform.html">Open project page</a>
+</article><article class="project-card" data-filter-card data-status="Concept" data-bucket="Experience Projects">
+  <div class="project-card-top"><span class="status-badge status-concept">Concept</span><span class="priority-pill">Medium</span></div>
+  <h3>The SOTE Command Wall</h3>
+  <p class="project-official">Mission Control Live Cyber Operations Wall</p>
+  <p>Concept defined as live status, tickets, maps, missions, rack health, and cyber range activity.</p>
+  <div class="project-meta">
+    <span><strong>Zone</strong>Mission Control</span>
+    <span><strong>Character</strong>SOTEE</span>
+    <span><strong>Pathway</strong>Mission Control Operator / Software Development Technician</span>
+  </div>
+  <div class="next-action"><strong>Next action:</strong> Create display mockups and identify safe, non-sensitive data sources.</div>
+  <div class="pill-row"><span class="pill">Mission: Dashboard Builder</span></div>
+  <a class="card-link" href="projects/sote-command-wall.html">Open project page</a>
+</article><article class="project-card" data-filter-card data-status="Build in Progress" data-bucket="Experience Projects">
+  <div class="project-card-top"><span class="status-badge status-progress">Build in Progress</span><span class="priority-pill">Medium</span></div>
+  <h3>SOTE Mission Badges</h3>
+  <p class="project-official">Student Technology Corps Mission Badge System</p>
+  <p>Initial badge model and Technology Cadet first visitor badge concept are included in the portal.</p>
+  <div class="project-meta">
+    <span><strong>Zone</strong>All SOTE Zones</span>
+    <span><strong>Character</strong>Ace / Professor Rocket / Sir Kingston</span>
+    <span><strong>Pathway</strong>All Pathways</span>
+  </div>
+  <div class="next-action"><strong>Next action:</strong> Design physical badge artwork, define evidence rules, and create a first visitor mission card.</div>
+  <div class="pill-row"><a class="pill" href="missions/technology-cadet-first-signal.html">Mission: Technology Cadet: First Signal</a></div>
+  <a class="card-link" href="projects/mission-badges.html">Open project page</a>
+</article><article class="project-card" data-filter-card data-status="Concept" data-bucket="Experience Projects">
+  <div class="project-card-top"><span class="status-badge status-concept">Concept</span><span class="priority-pill">Medium</span></div>
+  <h3>Ask SOTEE</h3>
+  <p class="project-official">SOTEE Interactive AI Kiosk</p>
+  <p>Concept exists for a kiosk or workstation where students and visitors ask SOTEE about the ecosystem.</p>
+  <div class="project-meta">
+    <span><strong>Zone</strong>Mission Control</span>
+    <span><strong>Character</strong>SOTEE</span>
+    <span><strong>Pathway</strong>Software Development Technician</span>
+  </div>
+  <div class="next-action"><strong>Next action:</strong> Define approved knowledge sources, privacy guardrails, and kiosk hardware options.</div>
+  <div class="pill-row"><span class="pill">Mission: Ask SOTEE Builder</span></div>
+  <a class="card-link" href="projects/ask-sotee.html">Open project page</a>
+</article><article class="project-card" data-filter-card data-status="Concept" data-bucket="Experience Projects">
+  <div class="project-card-top"><span class="status-badge status-concept">Concept</span><span class="priority-pill">Medium</span></div>
+  <h3>Rocket’s Forge Reactor Monitor</h3>
+  <p class="project-official">Smart Rack Environmental Lab</p>
+  <p>Concept exists for temperature, humidity, door/contact, airflow, display, and alerting.</p>
+  <div class="project-meta">
+    <span><strong>Zone</strong>Rocket’s Forge</span>
+    <span><strong>Character</strong>Professor Rocket</span>
+    <span><strong>Pathway</strong>Infrastructure Technician / Software Development Technician</span>
+  </div>
+  <div class="next-action"><strong>Next action:</strong> Identify approved sensors and decide whether the first dashboard appears in the portal or Command Wall.</div>
+  <div class="pill-row"><span class="pill">Mission: Reactor Watch</span></div>
+  <a class="card-link" href="projects/reactor-monitor.html">Open project page</a>
+</article><article class="project-card" data-filter-card data-status="Concept" data-bucket="Experience Projects">
+  <div class="project-card-top"><span class="status-badge status-concept">Concept</span><span class="priority-pill">Medium</span></div>
+  <h3>SOTE Cyber Arena</h3>
+  <p class="project-official">Red Team vs Blue Team Arena Nights</p>
+  <p>Concept exists for controlled evening or Friday cyber and infrastructure challenge events.</p>
+  <div class="project-meta">
+    <span><strong>Zone</strong>Western Pennsylvania Cyber Defense Command</span>
+    <span><strong>Character</strong>Sir Kingston</span>
+    <span><strong>Pathway</strong>Cybersecurity Technician</span>
+  </div>
+  <div class="next-action"><strong>Next action:</strong> Build one safe pilot scenario and define scoring rules.</div>
+  <div class="pill-row"><span class="pill">Mission: Cyber Arena Scout</span></div>
+  <a class="card-link" href="projects/cyber-arena.html">Open project page</a>
+</article><article class="project-card" data-filter-card data-status="Concept" data-bucket="Experience Projects">
+  <div class="project-card-top"><span class="status-badge status-concept">Concept</span><span class="priority-pill">Medium</span></div>
+  <h3>Defeat Cypher Raven</h3>
+  <p class="project-official">Cyber Escape Room / Digital Villain Challenge</p>
+  <p>Concept exists for a timed puzzle path where students restore systems and stop a simulated problem.</p>
+  <div class="project-meta">
+    <span><strong>Zone</strong>All SOTE Zones</span>
+    <span><strong>Character</strong>Cypher Raven</span>
+    <span><strong>Pathway</strong>Cybersecurity Technician / Help Desk Technician</span>
+  </div>
+  <div class="next-action"><strong>Next action:</strong> Write the first five clue sequence and safety limits.</div>
+  <div class="pill-row"><span class="pill">Mission: Signal Restored</span></div>
+  <a class="card-link" href="projects/cypher-raven.html">Open project page</a>
+</article><article class="project-card" data-filter-card data-status="Future / Backlog" data-bucket="Future Expansion">
+  <div class="project-card-top"><span class="status-badge status-future">Future / Backlog</span><span class="priority-pill">Future</span></div>
+  <h3>SOTE Digital Twin</h3>
+  <p class="project-official">Infrastructure Digital Twin and Simulation Lab</p>
+  <p>Concept exists for simulated topology, change planning, NetBox/IPAM, and pre-deployment validation.</p>
+  <div class="project-meta">
+    <span><strong>Zone</strong>Rocket’s Engineering Bay</span>
+    <span><strong>Character</strong>Professor Rocket / SOTEE</span>
+    <span><strong>Pathway</strong>Software Development Technician / Infrastructure Technician</span>
+  </div>
+  <div class="next-action"><strong>Next action:</strong> Defer until core network, compute, and documentation workflows are stable.</div>
+  <div class="pill-row"><span class="pill">Mission: Change Simulator</span></div>
+  <a class="card-link" href="projects/digital-twin.html">Open project page</a>
+</article><article class="project-card" data-filter-card data-status="Future / Backlog" data-bucket="Future Expansion">
+  <div class="project-card-top"><span class="status-badge status-future">Future / Backlog</span><span class="priority-pill">Future</span></div>
+  <h3>SOTE Wireless Bridge</h3>
+  <p class="project-official">CEIT 325 to Cyber Lab Wireless Fabric</p>
+  <p>Concept exists for approved wireless bridging between the classroom/NOC area and cybersecurity lab.</p>
+  <div class="project-meta">
+    <span><strong>Zone</strong>Mission Control / Cyber Defense Command</span>
+    <span><strong>Character</strong>Professor Rocket / Sir Kingston</span>
+    <span><strong>Pathway</strong>Infrastructure Technician</span>
+  </div>
+  <div class="next-action"><strong>Next action:</strong> Confirm policy, frequency, hardware, security model, and physical line of sight.</div>
+  <div class="pill-row"><span class="pill">Mission: Bridge Builder</span></div>
+  <a class="card-link" href="projects/wireless-bridge.html">Open project page</a>
+</article>
+      </div>
+    </div></section>
+
+    <section class="section alt"><div class="container">
+      <div class="section-heading"><h2>Blocked / needs support</h2><p>Use this area to safely identify project blockers without exposing credentials, internal IPs, security-sensitive diagrams, or private student information.</p></div>
+      <div class="support-grid">
+        <article class="support-card"><span class="status-badge status-blocked">Potential blocker</span><h3>Server hardware validation</h3><p>R2-PVE02 needs memory installed and validated before it can move forward as a Proxmox host.</p></article>
+        <article class="support-card"><span class="status-badge status-blocked">Potential blocker</span><h3>Licensing clarity</h3><p>Windows Server and Windows workstation training pods need an approved licensing or evaluation approach before broad classroom use.</p></article>
+        <article class="support-card"><span class="status-badge status-blocked">Potential blocker</span><h3>Approved final media assets</h3><p>approved recovered artwork now replaces blank visual placeholders. Approved recovered media is now bound to the portal; future work should only replace it through a controlled media manifest update.</p></article>
+      </div>
+    </div></section>
+
+    <section class="section"><div class="container">
+      <div class="callout"><h2>Student project roles</h2><p>The Projects board creates real student work: Project Reporter, Build Log Writer, Documentation Technician, Portal Builder, Mission Control Operator, and Faculty Reviewer. Updates should be factual, safe, and approved before publishing.</p></div>
+    </div></section>
+
+  <section class="section"><div class="container"><div class="callout"><h2>Media replacement checklist</h2><p>Use the media checklist to replace concept visuals with approved SOTE photos, badge art, character artwork, and map references.</p><a class="button" href="media-asset-checklist.html">Open Media Checklist</a></div></div></section>
+<section class="section alt"><div class="container"><div class="section-heading"><h2>Media readiness</h2><p>v0.8 adds a formal media checklist so project pages can be upgraded with photos without exposing sensitive information.</p></div><div class="card-grid"><article class="card"><span class="tag red">Blocked</span><h3>Final public photos</h3><p>Most projects still need approved room, rack, and project photos before public review.</p><a class="card-link" href="media-asset-checklist.html">Open media checklist</a></article><article class="card"><span class="tag green">Ready</span><h3>Concept visuals</h3><p>Internal approved recovered artwork and schematics are available for demo review and tour planning.</p></article><article class="card"><span class="tag blue">Next</span><h3>Asset collection day</h3><p>During the next lab visit, capture the priority photos listed in the checklist.</p></article></div></div></section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><strong>SOTE Command Portal</strong><p>Training the next generation of technology heroes. Defending Western Pennsylvania from digital villains.</p></div>
+      <div><strong>Version</strong><p>Static package v0.9 approved-media baseline, June 26, 2026</p></div>
+      <div><strong>Operating rule</strong><p>No student private data, no production credentials, no sensitive infrastructure details.</p></div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js?v=0.9-approved"></script>
+</body>
+</html>

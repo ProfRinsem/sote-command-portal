@@ -1,0 +1,627 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 1157,
+    "sha256_16": "e562cf506877baff"
+  },
+  {
+    "path": "assets/css/styles.css",
+    "bytes": 30131,
+    "sha256_16": "102477aa3e7fd55f"
+  },
+  {
+    "path": "assets/img/badges/cable-runner.webp",
+    "bytes": 80990,
+    "sha256_16": "f9b940a7c5059ff9"
+  },
+  {
+    "path": "assets/img/badges/certified-professional.webp",
+    "bytes": 74408,
+    "sha256_16": "4ef85c5de902246d"
+  },
+  {
+    "path": "assets/img/badges/cyber-range-scout.webp",
+    "bytes": 92126,
+    "sha256_16": "50298e5a6f7eeba2"
+  },
+  {
+    "path": "assets/img/badges/cybersecurity-technician.webp",
+    "bytes": 92126,
+    "sha256_16": "50298e5a6f7eeba2"
+  },
+  {
+    "path": "assets/img/badges/dhcp-defender.webp",
+    "bytes": 75136,
+    "sha256_16": "884357faeee718d9"
+  },
+  {
+    "path": "assets/img/badges/firewall-guardian.webp",
+    "bytes": 92126,
+    "sha256_16": "50298e5a6f7eeba2"
+  },
+  {
+    "path": "assets/img/badges/help-desk-hero.webp",
+    "bytes": 75226,
+    "sha256_16": "6c103ef5cfa842a7"
+  },
+  {
+    "path": "assets/img/badges/infrastructure-technician.webp",
+    "bytes": 75136,
+    "sha256_16": "884357faeee718d9"
+  },
+  {
+    "path": "assets/img/badges/linux-launch-crew.webp",
+    "bytes": 75136,
+    "sha256_16": "884357faeee718d9"
+  },
+  {
+    "path": "assets/img/badges/mission-control-operator.webp",
+    "bytes": 69772,
+    "sha256_16": "480cd92e614c57f0"
+  },
+  {
+    "path": "assets/img/badges/software-development-technician.webp",
+    "bytes": 76744,
+    "sha256_16": "a2a4f49f8a8ae5f8"
+  },
+  {
+    "path": "assets/img/badges/switch-initiate.webp",
+    "bytes": 75392,
+    "sha256_16": "245578fc6efc67d0"
+  },
+  {
+    "path": "assets/img/badges/technology-cadet-first-signal.webp",
+    "bytes": 169576,
+    "sha256_16": "8a70766be353e744"
+  },
+  {
+    "path": "assets/img/badges/vlan-operator.webp",
+    "bytes": 75392,
+    "sha256_16": "245578fc6efc67d0"
+  },
+  {
+    "path": "assets/img/badges/windows-domain-builder.webp",
+    "bytes": 75136,
+    "sha256_16": "884357faeee718d9"
+  },
+  {
+    "path": "assets/img/brand/qr_code_ccac_edu.png",
+    "bytes": 554,
+    "sha256_16": "16a90f92d362144c"
+  },
+  {
+    "path": "assets/img/brand/sote_command_portal_logo_header.webp",
+    "bytes": 24788,
+    "sha256_16": "164af3836cf6afe6"
+  },
+  {
+    "path": "assets/img/brand/sote_paw_badge_icon.webp",
+    "bytes": 45588,
+    "sha256_16": "1466a55a5d1de172"
+  },
+  {
+    "path": "assets/img/characters/ace-one-sheet.webp",
+    "bytes": 163186,
+    "sha256_16": "4d29a66bf5012b16"
+  },
+  {
+    "path": "assets/img/characters/ace.webp",
+    "bytes": 165058,
+    "sha256_16": "cbfcc36bc5ca64aa"
+  },
+  {
+    "path": "assets/img/characters/cypher-raven-one-sheet.webp",
+    "bytes": 128904,
+    "sha256_16": "b00f4c0304ce5191"
+  },
+  {
+    "path": "assets/img/characters/cypher-raven.webp",
+    "bytes": 139314,
+    "sha256_16": "9554a3b3abaed13d"
+  },
+  {
+    "path": "assets/img/characters/professor-rocket-one-sheet.webp",
+    "bytes": 166024,
+    "sha256_16": "f4dd224f53b4641e"
+  },
+  {
+    "path": "assets/img/characters/professor-rocket.webp",
+    "bytes": 135774,
+    "sha256_16": "c0a567ba5e8f420d"
+  },
+  {
+    "path": "assets/img/characters/sir-kingston-one-sheet.webp",
+    "bytes": 158350,
+    "sha256_16": "1d602cfefc5ee5ac"
+  },
+  {
+    "path": "assets/img/characters/sir-kingston.webp",
+    "bytes": 126766,
+    "sha256_16": "8d72909e2cc5d145"
+  },
+  {
+    "path": "assets/img/characters/sotee-one-sheet.webp",
+    "bytes": 148502,
+    "sha256_16": "622d53759ed5cb57"
+  },
+  {
+    "path": "assets/img/characters/sotee.webp",
+    "bytes": 138308,
+    "sha256_16": "905e96b12284949e"
+  },
+  {
+    "path": "assets/img/mission-icons/cabling.webp",
+    "bytes": 80990,
+    "sha256_16": "f9b940a7c5059ff9"
+  },
+  {
+    "path": "assets/img/mission-icons/cyber.webp",
+    "bytes": 92126,
+    "sha256_16": "50298e5a6f7eeba2"
+  },
+  {
+    "path": "assets/img/mission-icons/documentation.webp",
+    "bytes": 74408,
+    "sha256_16": "4ef85c5de902246d"
+  },
+  {
+    "path": "assets/img/mission-icons/help-desk.webp",
+    "bytes": 75226,
+    "sha256_16": "6c103ef5cfa842a7"
+  },
+  {
+    "path": "assets/img/mission-icons/server.webp",
+    "bytes": 75136,
+    "sha256_16": "884357faeee718d9"
+  },
+  {
+    "path": "assets/img/mission-icons/software-development.webp",
+    "bytes": 76744,
+    "sha256_16": "a2a4f49f8a8ae5f8"
+  },
+  {
+    "path": "assets/img/mission-icons/switch.webp",
+    "bytes": 75392,
+    "sha256_16": "245578fc6efc67d0"
+  },
+  {
+    "path": "assets/img/mission-icons/tour.webp",
+    "bytes": 69772,
+    "sha256_16": "480cd92e614c57f0"
+  },
+  {
+    "path": "assets/img/pathways/student-technology-corps-pathway.webp",
+    "bytes": 133160,
+    "sha256_16": "fc61027bc444063a"
+  },
+  {
+    "path": "assets/img/photos/README.md",
+    "bytes": 516,
+    "sha256_16": "b8f88e2a90ea3b30"
+  },
+  {
+    "path": "assets/img/sote-mark.webp",
+    "bytes": 61014,
+    "sha256_16": "af9ca578c4bd0577"
+  },
+  {
+    "path": "assets/img/status/sote-project-status-icon-set.webp",
+    "bytes": 93302,
+    "sha256_16": "89f1dcf0b72097d0"
+  },
+  {
+    "path": "assets/img/zones/aces-support-command.webp",
+    "bytes": 201870,
+    "sha256_16": "2e7655bc980d4069"
+  },
+  {
+    "path": "assets/img/zones/ceit-325-classroom.webp",
+    "bytes": 219262,
+    "sha256_16": "c435820ff3a2a3f7"
+  },
+  {
+    "path": "assets/img/zones/command-briefing-room.webp",
+    "bytes": 304886,
+    "sha256_16": "679be67e18ac8c4a"
+  },
+  {
+    "path": "assets/img/zones/cyber-defense-command-visual.webp",
+    "bytes": 159382,
+    "sha256_16": "4f709502f1afa900"
+  },
+  {
+    "path": "assets/img/zones/cyber-defense-command.webp",
+    "bytes": 159382,
+    "sha256_16": "4f709502f1afa900"
+  },
+  {
+    "path": "assets/img/zones/facility-tour-map.webp",
+    "bytes": 184708,
+    "sha256_16": "baa7b111c89bd4fa"
+  },
+  {
+    "path": "assets/img/zones/hero-ecosystem.webp",
+    "bytes": 201870,
+    "sha256_16": "2e7655bc980d4069"
+  },
+  {
+    "path": "assets/img/zones/mission-control-visual.webp",
+    "bytes": 301018,
+    "sha256_16": "437f238cfa461869"
+  },
+  {
+    "path": "assets/img/zones/mission-control.webp",
+    "bytes": 301018,
+    "sha256_16": "437f238cfa461869"
+  },
+  {
+    "path": "assets/img/zones/patch-bay-alpha.webp",
+    "bytes": 92232,
+    "sha256_16": "0be9900a2037796c"
+  },
+  {
+    "path": "assets/img/zones/rockets-engineering-bay.webp",
+    "bytes": 81866,
+    "sha256_16": "31b4130a300061b8"
+  },
+  {
+    "path": "assets/img/zones/rockets-forge-visual.webp",
+    "bytes": 275416,
+    "sha256_16": "c71813cd6e563065"
+  },
+  {
+    "path": "assets/img/zones/rockets-forge.webp",
+    "bytes": 275416,
+    "sha256_16": "c71813cd6e563065"
+  },
+  {
+    "path": "assets/img/zones/rockets-launch-pad.webp",
+    "bytes": 81666,
+    "sha256_16": "5f9648868dccc376"
+  },
+  {
+    "path": "assets/img/zones/zones-overview.webp",
+    "bytes": 219262,
+    "sha256_16": "c435820ff3a2a3f7"
+  },
+  {
+    "path": "assets/js/main.js",
+    "bytes": 4849,
+    "sha256_16": "79cbcf968ea8cf2e"
+  },
+  {
+    "path": "badges.html",
+    "bytes": 8767,
+    "sha256_16": "668849653e42997f"
+  },
+  {
+    "path": "characters/ace.html",
+    "bytes": 5589,
+    "sha256_16": "99bba5c601586ce5"
+  },
+  {
+    "path": "characters/cypher-raven.html",
+    "bytes": 5807,
+    "sha256_16": "b9b2e31a073575a0"
+  },
+  {
+    "path": "characters/professor-rocket.html",
+    "bytes": 5893,
+    "sha256_16": "43fdf0a6113d0b47"
+  },
+  {
+    "path": "characters/sir-kingston.html",
+    "bytes": 5801,
+    "sha256_16": "156720ad6f5bd613"
+  },
+  {
+    "path": "characters/sotee.html",
+    "bytes": 5648,
+    "sha256_16": "21a9f6292f80ec61"
+  },
+  {
+    "path": "characters.html",
+    "bytes": 8751,
+    "sha256_16": "42efe52cd8a78c49"
+  },
+  {
+    "path": "codex.html",
+    "bytes": 6445,
+    "sha256_16": "cfec9ee1d21cd4db"
+  },
+  {
+    "path": "docs/CHANGELOG.md",
+    "bytes": 994,
+    "sha256_16": "117d06d48b264cd4"
+  },
+  {
+    "path": "docs/CONTENT_GUIDE.md",
+    "bytes": 624,
+    "sha256_16": "594161364114a14d"
+  },
+  {
+    "path": "docs/DEPLOYMENT.md",
+    "bytes": 377,
+    "sha256_16": "1e9634b7ea5f721a"
+  },
+  {
+    "path": "ecosystem.html",
+    "bytes": 6363,
+    "sha256_16": "fcf85384225ac4dd"
+  },
+  {
+    "path": "environment-map.html",
+    "bytes": 8368,
+    "sha256_16": "3cc7e76c1bb3e931"
+  },
+  {
+    "path": "get-involved.html",
+    "bytes": 5726,
+    "sha256_16": "0c3cdccb79e51fc0"
+  },
+  {
+    "path": "index.html",
+    "bytes": 6839,
+    "sha256_16": "4f3c76aaeee7cf13"
+  },
+  {
+    "path": "media-asset-checklist.html",
+    "bytes": 12233,
+    "sha256_16": "31fe4ba476491db9"
+  },
+  {
+    "path": "mission-board.html",
+    "bytes": 7412,
+    "sha256_16": "86fa9fe242e5fd0b"
+  },
+  {
+    "path": "mission-report-workflow.html",
+    "bytes": 4789,
+    "sha256_16": "af87d9ab90cc03a2"
+  },
+  {
+    "path": "missions/technology-cadet-first-signal.html",
+    "bytes": 8004,
+    "sha256_16": "f6c9b13914c26d56"
+  },
+  {
+    "path": "print/technology-cadet-first-signal-badge-sheet.html",
+    "bytes": 1836,
+    "sha256_16": "697afb910d05b8c2"
+  },
+  {
+    "path": "profiles/sample-cadet.html",
+    "bytes": 4644,
+    "sha256_16": "cf3a3e86b7ba8a32"
+  },
+  {
+    "path": "project-submission.html",
+    "bytes": 7151,
+    "sha256_16": "89ad3900e0e2d8bc"
+  },
+  {
+    "path": "projects/ace-service-desk.html",
+    "bytes": 5479,
+    "sha256_16": "54d6f4725a84928b"
+  },
+  {
+    "path": "projects/ask-sotee.html",
+    "bytes": 5368,
+    "sha256_16": "f5a3d4722d5a679f"
+  },
+  {
+    "path": "projects/command-portal.html",
+    "bytes": 5612,
+    "sha256_16": "fddc56a407752d32"
+  },
+  {
+    "path": "projects/cyber-arena.html",
+    "bytes": 5393,
+    "sha256_16": "fa7f6bb2d652df27"
+  },
+  {
+    "path": "projects/cypher-raven.html",
+    "bytes": 5490,
+    "sha256_16": "bca4d74681d6cd2c"
+  },
+  {
+    "path": "projects/digital-twin.html",
+    "bytes": 5565,
+    "sha256_16": "e408dea33d490140"
+  },
+  {
+    "path": "projects/linux-teaching-platform.html",
+    "bytes": 5444,
+    "sha256_16": "9e0b0aafb03b5916"
+  },
+  {
+    "path": "projects/mission-badges.html",
+    "bytes": 5670,
+    "sha256_16": "d8d953a08281a39f"
+  },
+  {
+    "path": "projects/mission-control-access-switches.html",
+    "bytes": 5610,
+    "sha256_16": "cc66a6e46a7dfd0b"
+  },
+  {
+    "path": "projects/mission-control-console-array.html",
+    "bytes": 5429,
+    "sha256_16": "9bf0ffaa3c347bcc"
+  },
+  {
+    "path": "projects/reactor-monitor.html",
+    "bytes": 5475,
+    "sha256_16": "fad1296f8b94e0be"
+  },
+  {
+    "path": "projects/rockets-forge-aggregation-switch.html",
+    "bytes": 5448,
+    "sha256_16": "af3b8b81a4d30ccb"
+  },
+  {
+    "path": "projects/rockets-forge-dell-server-infrastructure.html",
+    "bytes": 5531,
+    "sha256_16": "74cdebffdd0df64e"
+  },
+  {
+    "path": "projects/sote-command-wall.html",
+    "bytes": 5484,
+    "sha256_16": "a77cbcc810bbf4b6"
+  },
+  {
+    "path": "projects/windows-ad-training-pods.html",
+    "bytes": 5571,
+    "sha256_16": "0e8129ffde4c2689"
+  },
+  {
+    "path": "projects/wireless-bridge.html",
+    "bytes": 5439,
+    "sha256_16": "aafafab45e7d1907"
+  },
+  {
+    "path": "projects.html",
+    "bytes": 27211,
+    "sha256_16": "5aa33ebc90c0acf1"
+  },
+  {
+    "path": "site-manifest-v0.9-approved-media.json",
+    "bytes": 21120,
+    "sha256_16": "1f001541a96633cb"
+  },
+  {
+    "path": "site-manifest.json",
+    "bytes": 207,
+    "sha256_16": "2f2d285550d05a18"
+  },
+  {
+    "path": "spaces/aces-support-command.html",
+    "bytes": 4972,
+    "sha256_16": "bb15bfaf36aa4f58"
+  },
+  {
+    "path": "spaces/ceit-325-classroom.html",
+    "bytes": 5059,
+    "sha256_16": "cbb691f72f6c6365"
+  },
+  {
+    "path": "spaces/command-briefing-room.html",
+    "bytes": 4862,
+    "sha256_16": "a15bed5c078ad152"
+  },
+  {
+    "path": "spaces/cyber-defense-command.html",
+    "bytes": 5022,
+    "sha256_16": "d34be1c89f837477"
+  },
+  {
+    "path": "spaces/mission-control.html",
+    "bytes": 4994,
+    "sha256_16": "d9b8c1c2fc0d798b"
+  },
+  {
+    "path": "spaces/patch-bay-alpha.html",
+    "bytes": 4868,
+    "sha256_16": "dea1696903864f85"
+  },
+  {
+    "path": "spaces/rockets-engineering-bay.html",
+    "bytes": 4948,
+    "sha256_16": "8268d36c1d35c217"
+  },
+  {
+    "path": "spaces/rockets-forge.html",
+    "bytes": 4954,
+    "sha256_16": "f5686569e2b1cb5f"
+  },
+  {
+    "path": "spaces/rockets-launch-pad.html",
+    "bytes": 4890,
+    "sha256_16": "b58dabfbd7a79fda"
+  },
+  {
+    "path": "spaces.html",
+    "bytes": 3331,
+    "sha256_16": "7e23c6a7e8cbe068"
+  },
+  {
+    "path": "start-here.html",
+    "bytes": 6302,
+    "sha256_16": "05a1b1dd13750fd5"
+  },
+  {
+    "path": "student-technology-corps.html",
+    "bytes": 7852,
+    "sha256_16": "afe07cdc335da781"
+  },
+  {
+    "path": "templates/page-template.html",
+    "bytes": 2243,
+    "sha256_16": "661915c375dbf41e"
+  },
+  {
+    "path": "templates/student-profile-template.html",
+    "bytes": 2322,
+    "sha256_16": "b7f413796438e8ae"
+  },
+  {
+    "path": "tour-guide-kit.html",
+    "bytes": 8311,
+    "sha256_16": "314d08d94956bafe"
+  },
+  {
+    "path": "tour-mode.html",
+    "bytes": 11941,
+    "sha256_16": "bb17b058cf145c55"
+  },
+  {
+    "path": "zones/aces-support-command.html",
+    "bytes": 5927,
+    "sha256_16": "92708025bded4098"
+  },
+  {
+    "path": "zones/ceit-325-classroom.html",
+    "bytes": 6010,
+    "sha256_16": "60105289f375a068"
+  },
+  {
+    "path": "zones/command-briefing-room.html",
+    "bytes": 5819,
+    "sha256_16": "39983c3074bb84d3"
+  },
+  {
+    "path": "zones/cyber-defense-command.html",
+    "bytes": 5979,
+    "sha256_16": "60744a95ebe60070"
+  },
+  {
+    "path": "zones/mission-control.html",
+    "bytes": 5939,
+    "sha256_16": "797526d2d085ff92"
+  },
+  {
+    "path": "zones/patch-bay-alpha.html",
+    "bytes": 5813,
+    "sha256_16": "10609a5f5004e6a6"
+  },
+  {
+    "path": "zones/rockets-engineering-bay.html",
+    "bytes": 5909,
+    "sha256_16": "a2a7b68befaa2498"
+  },
+  {
+    "path": "zones/rockets-forge.html",
+    "bytes": 5895,
+    "sha256_16": "d896d983388d72e1"
+  },
+  {
+    "path": "zones/rockets-launch-pad.html",
+    "bytes": 5841,
+    "sha256_16": "402a2c331b05ad4f"
+  },
+  {
+    "path": "zones.html",
+    "bytes": 8661,
+    "sha256_16": "3c028ba27ccfe53e"
+  }
+]

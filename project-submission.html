@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Student project proposal submission draft builder for SOTE.">
+  <title>Submit a Project | SOTE Command Portal</title>
+  <link rel="stylesheet" href="assets/css/styles.css?v=0.9-approved">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="SOTE Command Portal home">
+        <img src="assets/img/brand/sote_paw_badge_icon.webp" alt="" width="52" height="52">
+        <span><strong>SOTE Command Portal</strong><small>The SOTE Codex, Mission Board, and Student Corps Profiles</small></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+<a href="start-here.html">Start Here</a>
+<a href="tour-mode.html">Tour Mode</a>
+<a href="tour-guide-kit.html">Tour Guide Kit</a>
+<a href="environment-map.html">Map</a>
+<a href="zones.html">Zones</a>
+<a href="characters.html">Characters</a>
+<a href="mission-board.html">Mission Board</a>
+<a href="badges.html">Badges</a>
+<a href="student-technology-corps.html">Student Corps</a>
+<a href="codex.html">Codex</a>
+<a class="active" href="projects.html">Projects</a>
+<a href="get-involved.html">Get Involved</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero compact-hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Student proposal intake</p>
+          <h1>Submit a SOTE project idea.</h1>
+          <p class="hero-text">Students can propose new missions, tools, dashboards, lab improvements, documentation projects, or visitor experiences. This static demo creates a clean proposal draft that can be copied into the approved CCAC submission channel.</p>
+          <div class="hero-actions"><a class="button" href="#proposal-form">Start Proposal Draft</a><a class="button secondary" href="projects.html">Back to Projects</a></div>
+        </div>
+        <div class="hero-panel"><span>Idea</span><span>Proposal Draft</span><span>Review</span><span>Approved Build</span><strong>Student project pathway</strong></div>
+      </div>
+    </section>
+
+    <section class="section alt"><div class="container">
+      <div class="section-heading"><h2>What belongs here?</h2><p>Good SOTE project ideas connect to real learning, safe operations, documentation, student engagement, or workforce readiness.</p></div>
+      <div class="card-grid">
+        <article class="card"><span class="tag">Infrastructure</span><h3>Build or improve</h3><p>Examples: cabling labels, rack maps, Proxmox templates, switch validation, storage planning, or safe documentation.</p></article>
+        <article class="card"><span class="tag blue">Software</span><h3>Create a tool</h3><p>Examples: portal pages, dashboards, scripts, badge displays, Ask SOTEE features, or project status automation.</p></article>
+        <article class="card"><span class="tag green">Experience</span><h3>Help people understand SOTE</h3><p>Examples: tour stops, visitor badges, mission cards, character lore, student guides, or open house activities.</p></article>
+      </div>
+    </div></section>
+
+    <section class="section" id="proposal-form"><div class="container">
+      <div class="section-heading"><h2>Project proposal draft builder</h2><p>This is not a live database submission yet. It helps a student create a clean proposal that can be copied, reviewed, and submitted through an approved process.</p></div>
+      <form class="proposal-form" data-proposal-form>
+        <label>Project title<input name="title" type="text" placeholder="Example: SOTE Tour Passport" required></label>
+        <label>Student-facing name<input name="studentName" type="text" placeholder="Example: First Signal Tour Passport"></label>
+        <label>Connected zone<select name="zone"><option>Mission Control</option><option>Rocket’s Forge</option><option>Western Pennsylvania Cyber Defense Command</option><option>Ace’s Support Command</option><option>Patch Bay Alpha</option><option>Rocket’s Launch Pad</option><option>SOTE Command Portal</option><option>Multiple zones</option></select></label>
+        <label>Pathway<select name="pathway"><option>Technology Cadet</option><option>Help Desk Technician</option><option>Infrastructure Technician</option><option>Cybersecurity Technician</option><option>Software Development Technician</option><option>Mission Control Operator</option><option>Multiple pathways</option></select></label>
+        <label>What problem or opportunity does this address?<textarea name="problem" rows="4" placeholder="Describe the need, gap, or student opportunity."></textarea></label>
+        <label>What would students build or do?<textarea name="work" rows="4" placeholder="Describe the proposed work in student-friendly language."></textarea></label>
+        <label>What would success look like?<textarea name="success" rows="4" placeholder="Describe the finished result, evidence, or outcome."></textarea></label>
+        <label>What resources or approvals might be needed?<textarea name="needs" rows="4" placeholder="Hardware, software, access, space, images, approval, supervision, etc."></textarea></label>
+        <label>Public-safe notes<textarea name="safeNotes" rows="4" placeholder="Only include information that is safe to share publicly. No credentials, student private data, sensitive configs, or production details."></textarea></label>
+        <div class="hero-actions"><button class="button" type="button" data-generate-proposal>Generate Draft</button><button class="button secondary" type="reset">Clear Form</button></div>
+      </form>
+      <div class="generated-output" data-proposal-output hidden>
+        <h3>Generated proposal draft</h3>
+        <textarea readonly data-proposal-text rows="16"></textarea>
+        <div class="hero-actions"><button class="button" type="button" data-copy-proposal>Copy Draft</button></div>
+      </div>
+    </div></section>
+
+    <section class="section alt"><div class="container"><div class="callout"><h2>Submission rule</h2><p>A submitted idea is not automatically approved. It becomes a proposal draft for review by the SOTE lead, appropriate faculty, and any required CCAC process.</p></div></div></section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><strong>SOTE Command Portal</strong><p>Training the next generation of technology heroes. Defending Western Pennsylvania from digital villains.</p></div>
+      <div><strong>Version</strong><p>Static package v0.9 approved-media baseline, June 26, 2026</p></div>
+      <div><strong>Operating rule</strong><p>No student private data, no production credentials, no sensitive infrastructure details.</p></div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js?v=0.9-approved"></script>
+</body>
+</html>
